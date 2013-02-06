@@ -19,7 +19,6 @@
 </head>
 
 <body>
-    <p>adadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
 <div class="container" id="page">
 
 	<div id="header">
