@@ -20,3 +20,27 @@ Stack trace:
 REQUEST_URI=/index.php?r=gii/model
 HTTP_REFERER=http://www.review.local/index.php?r=gii/default/index
 ---
+2013/02/07 16:34:35 [error] [php] Object of class CHttpRequest could not be converted to string (/var/www/product-evaluation/sources/font-end/views/layouts/main.php:19)
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#1 /var/www/product-evaluation/sources/common/lib/yii/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#2 /var/www/product-evaluation/sources/common/lib/yii/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 /var/www/product-evaluation/sources/common/lib/yii/web/CBaseController.php(206): CContentDecorator->run()
+#4 /var/www/product-evaluation/sources/common/lib/yii/web/CBaseController.php(300): SiteController->endWidget()
+#5 /var/www/product-evaluation/sources/font-end/views/layouts/column1.php(6): SiteController->endContent()
+#6 /var/www/product-evaluation/sources/common/lib/yii/web/CBaseController.php(126): require()
+#7 /var/www/product-evaluation/sources/common/lib/yii/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(784): SiteController->renderFile()
+#9 /var/www/product-evaluation/sources/font-end/controllers/SiteController.php(32): SiteController->render()
+#10 /var/www/product-evaluation/sources/common/lib/yii/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(308): CInlineAction->runWithParams()
+#12 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(286): SiteController->runAction()
+#13 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): SiteController->run()
+#15 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /var/www/product-evaluation/sources/font-end/www/index.php(14): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/index
+in /var/www/product-evaluation/sources/font-end/views/layouts/main.php (19)
+in /var/www/product-evaluation/sources/font-end/views/layouts/column1.php (6)
+in /var/www/product-evaluation/sources/font-end/controllers/SiteController.php (32)
