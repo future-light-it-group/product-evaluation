@@ -1,4 +1,3 @@
-<script src="<?php echo Yii::app()->theme->baseUrl . '/js/jquery.min.js'?>"></script>
 <!-- smart resize event -->
 <script src="<?php echo Yii::app()->theme->baseUrl . '/js/jquery.debouncedresize.min.js'?>"></script>
 <!-- hidden elements width/height -->

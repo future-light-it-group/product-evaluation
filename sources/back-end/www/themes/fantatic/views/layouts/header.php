@@ -54,7 +54,7 @@
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i
                                     class="icon-list-alt icon-white"></i> Sản phẩm <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="danhsach.php"> Danh sách sản phẩm</a></li>
+                                <li><a href="<?php echo $this->createUrl('product/index')?>"> Danh sách sản phẩm</a></li>
                                 <li><a href="#"> Danh sách loại sản phẩm</a></li>
                             </ul>
                         </li>

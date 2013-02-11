@@ -16,6 +16,7 @@ return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'Product Evaluation Website',
     'theme' => 'fantatic',
+    'defaultController'=>'product',
     // preloading 'log' component
     'preload' => array('log'),
 
@@ -35,6 +36,7 @@ return array(
             'ipFilters' => array('127.0.0.1', '::1'),
         ),
 
+
     ),
 
     // application components
@@ -43,7 +45,17 @@ return array(
             // enable cookie-based authentication
             'allowAutoLogin' => true,
         ),
+
+        'time' => array(
+            'class'=> 'ext.Time',
+        ),
+
         // uncomment the following to enable URLs in path-format
+        'urlManager'=>array(
+            'urlFormat'=>'path',
+            'showScriptName'=> false,
+        ),
+
         /*
         'urlManager'=>array(
             'urlFormat'=>'path',
@@ -96,5 +108,6 @@ return array(
         // this is used in contact page
         'adminEmail' => 'webmaster@example.com',
     ),
+
 );
 
