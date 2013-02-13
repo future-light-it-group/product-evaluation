@@ -21,14 +21,37 @@ $this->breadcrumbs=array(
 		'create_at',
 		'origin',
 		'warranty',
-		'approved',
-		'image',
+        array(
+            'name'=>'approved',
+            'type'=>'raw',
+            'value'=>$model->getApproveText($model->approved),
+        ),
+        array(
+            'name'=>'image',
+            'type'=>'html',
+            'value'=>CHtml::image(Yii::getPathOfAlias("upload_img_dir") . DIRECTORY_SEPARATOR . $model->image,'Đang cập nhật',array('width'=>'123','height'=>'123')),
+
+        ),
+
 		'status',
 		'resource_img',
 		'resource_video',
 		'resource_audio',
-		'product_category_id',
-		'manufacture_id',
-		'distributor_id',
+        array(
+            'name'=>'product_category_id',
+            'type'=>'raw',
+            'value'=>$model->getProductCategoryText($model->product_category_id),
+        ),
+        array(
+            'name'=>'manufacture_id',
+            'type'=>'raw',
+            'value'=>$model->getManufacturerText($model->manufacture_id),
+        ),
+        array(
+            'name'=>'distributor_id',
+            'type'=>'raw',
+            'value'=>$model->getDistributorText($model->distributor_id),
+        ),
+
 	),
 )); ?>

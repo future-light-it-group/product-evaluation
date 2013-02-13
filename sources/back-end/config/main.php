@@ -11,6 +11,7 @@ $root = dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '
 
 Yii::setPathOfAlias('root', $root);
 Yii::setPathOfAlias('common', $root . '/common');
+Yii::setPathOfAlias('upload_img_dir', '/upload/images');
 
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',

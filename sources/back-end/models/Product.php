@@ -32,6 +32,8 @@
  */
 class Product extends CActiveRecord
 {
+
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -58,17 +60,29 @@ class Product extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, price, in_stock, create_at, approved, product_category_id, manufacture_id, distributor_id', 'required'),
+			array('name, price,create_at, in_stock, approved, product_category_id, manufacture_id, distributor_id', 'required'),
 			array('in_stock, approved, product_category_id, manufacture_id, distributor_id', 'numerical', 'integerOnly'=>true),
 			array('price, old_price', 'numerical'),
 			array('name', 'length', 'max'=>255),
 			array('origin', 'length', 'max'=>30),
 			array('warranty, status', 'length', 'max'=>20),
-			array('image', 'length', 'max'=>100),
+            array('image',
+                        'file',
+                        'types'=>'jpg, gif, png, jpeg',
+                        'allowEmpty'=>true,
+                        'safe'=>true,
+                        'maxSize'=>1024 * 1024 * 5, //5MB max
+                        'wrongType'=>'Sai loại file',
+                        'tooLarge'=>'Kích thước hình ảnh quá lớn. Vui lòng chọn hình nhỏ hơn',
+
+                    ),
+
 			array('resource_img, resource_video, resource_audio', 'length', 'max'=>200),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, name, price, old_price, in_stock, create_at, origin, warranty, approved, image, status, resource_img, resource_video, resource_audio, product_category_id, manufacture_id, distributor_id', 'safe', 'on'=>'search'),
+            // image validator
+
 		);
 	}
 
@@ -149,7 +163,7 @@ class Product extends CActiveRecord
 		));
 	}
 
-    public function getDistributorList() {
+    public function getDistributorOptions() {
         $result =  Yii::app()->db->createCommand()
                             ->select(array('id','name'))
                             ->from('tbl_distributor')
@@ -163,7 +177,7 @@ class Product extends CActiveRecord
         return $distributors;
     }
 
-    public function getManufacturerList() {
+    public function getManufacturerOptions() {
         $result =  Yii::app()->db->createCommand()
             ->select(array('id','name'))
             ->from('tbl_manufacturer')
@@ -177,7 +191,7 @@ class Product extends CActiveRecord
         return $manufacturers;
     }
 
-    public function getProductCategoryList() {
+    public function getProductCategoryOptions() {
         $result =  Yii::app()->db->createCommand()
             ->select(array('id','name'))
             ->from('tbl_product_category')
@@ -189,6 +203,31 @@ class Product extends CActiveRecord
 
         }
         return $productCategories;
+    }
+
+    public function getApproveOptions() {
+         return array('Đang hủy bỏ','Đang kích hoạt');
+    }
+
+    public function getApproveText($approve_id) {
+          $approveOptions = $this->getApproveOptions();
+          $approveText = $approveOptions[$approve_id];
+          return $approveText;
+    }
+
+    public function getProductCategoryText($productCategory_id) {
+          $productCategoryOptions = $this->getProductCategoryOptions();
+          return $productCategoryOptions[$productCategory_id];
+    }
+    public function getManufacturerText($manufacturer_id) {
+         $manufacturerOptions = $this->getManufacturerOptions();
+         return $manufacturerOptions[$manufacturer_id];
+    }
+
+    public function getDistributorText($distributor_id) {
+        $distributorOptions = $this->getDistributorOptions();
+        return $distributorOptions[$distributor_id];
+
     }
 
 }

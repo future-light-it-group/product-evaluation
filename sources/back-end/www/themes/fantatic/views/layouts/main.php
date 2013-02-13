@@ -66,7 +66,7 @@
                     include 'custom-scripts/datatable.php';
                 }
 
-                if($this->action->getId() == 'update') {
+                if($this->action->getId() != 'index') {
 
                     include 'custom-scripts/form.php';
 

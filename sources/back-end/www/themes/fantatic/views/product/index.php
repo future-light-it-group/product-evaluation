@@ -26,14 +26,18 @@ $this->widget('zii.widgets.grid.CGridView', array(
         array(
             'name'=>'image',
             'type'=>'html',
-            'value'=>'ProductController::createFullImagePath($data->image)',
+            'value'=>'CHtml::image(Yii::getPathOfAlias("upload_img_dir") . DIRECTORY_SEPARATOR . $data->image,"Đang cập nhật",array("width"=>"123","height"=>"123"))',
 
         ),
         'price',
         'old_price',
         'in_stock',
         'create_at',
-        'approved',
+        array(
+            'name'=>'approved',
+            'type'=>'raw',
+            'value'=>'$data->getApproveText($data->approved)',
+        ),
 
         /*
         'origin',

@@ -8,6 +8,9 @@ $this->breadcrumbs=array(
 );
 
 ?>
+<!--essential javascript -->
+<script src="<?php echo Yii::app()->theme->baseUrl . '/js/jquery.min.js'?>"></script>
+
 
 <h1>Thêm mới sản phẩm</h1>
 

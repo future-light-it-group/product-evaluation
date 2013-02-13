@@ -66,12 +66,27 @@ class ProductController extends Controller
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
-
+        $file = CUploadedFile::getInstance($model,'image');
 		if(isset($_POST['Product']))
 		{
 			$model->attributes=$_POST['Product'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+            if(is_object($file) && get_class($file) === 'CUploadedFile') {  // check if the instaces of file is valid object
+                $model->image = $file; //set file to image attribute of the model
+                if($model->save()) {
+                    if(is_object($model->image) && get_class($model->image) === 'CUploadedFile' ) {
+                        // check again for make sure that in model attribute for valid
+
+                        $model->image->saveAs(substr(Yii::getPathOfAlias('upload_img_dir'),1) . DIRECTORY_SEPARATOR. $file->name);
+                    }
+                    $this->redirect(array('view','id'=>$model->id));
+                }
+
+            } else {
+                //image not define only save info
+                if($model->save())
+                    $this->redirect(array('view','id'=>$model->id));
+
+            }
 		}
 
 		$this->render('create',array(
@@ -87,15 +102,38 @@ class ProductController extends Controller
 	public function actionUpdate($id)
 	{
 		$model=$this->loadModel($id);
+        // Uncomment the following line if AJAX validation is needed
+        // $this->performAjaxValidation($model);
 
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+
 
 		if(isset($_POST['Product']))
 		{
+            $old_image = $model->image;
 			$model->attributes=$_POST['Product'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+            $model->setAttributes($_POST['Product']);  //set all attributes from the $_POST
+            $file = CUploadedFile::getInstance($model,'image');
+
+            if(is_object($file) && get_class($file) === 'CUploadedFile' )  {
+                $model->image = $file;
+
+            } else  {
+                $model->image = $old_image;
+            }
+            if($model->save()) {
+                if(is_object($model->image) && get_class($model->image) === 'CUploadedFile' )    {
+                    //file image is write on db so we only need move this file from the tmp directory to upload directory
+
+                    $model->image->saveAs(substr(Yii::getPathOfAlias('upload_img_dir'),1) . DIRECTORY_SEPARATOR. $model->image->name);
+                    // remove if have the old image file
+
+                    if(!empty($old_image)) {
+                        unlink(substr(Yii::getPathOfAlias('upload_img_dir'),1) . DIRECTORY_SEPARATOR .  $old_image);
+                    }
+                }
+                $this->redirect(array('view','id'=>$model->id));
+            }
+
 		}
 
 		$this->render('update',array(
@@ -111,7 +149,16 @@ class ProductController extends Controller
 	public function actionDelete($id)
 	{
 
-		$this->loadModel($id)->delete();
+		$model = $this->loadModel($id);
+
+        //delete image
+        $old_image = $model->image;
+        if($model->delete()) {
+            if(!empty($old_image)) {
+                unlink(substr(Yii::getPathOfAlias('upload_img_dir'),1) . DIRECTORY_SEPARATOR .  $old_image);
+            }
+        }
+
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax'])) {
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('index'));
@@ -192,9 +239,5 @@ class ProductController extends Controller
 			Yii::app()->end();
 		}
 	}
-
-    public static function  createFullImagePath($imageName) {
-        return CHtml::image('/upload/images/' . $imageName,'Đang cập nhật',array('width'=>'80','height'=>'80'));
-    }
 
 }

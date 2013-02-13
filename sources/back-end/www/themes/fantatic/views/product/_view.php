@@ -11,7 +11,7 @@
 
     <b><?php echo CHtml::encode($data->getAttributeLabel('image')); ?>:</b>
 
-    <img src="<?php echo CHtml::encode('upload/images/' . $data->image); ?>" alt="product-image">
+    <img src="<?php echo CHtml::encode('/upload/images/' . $data->image); ?>" alt="product-image">
     <br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('name')); ?>:</b>
@@ -36,7 +36,7 @@
 	<br />
 
     <b><?php echo CHtml::encode($data->getAttributeLabel('approved')); ?>:</b>
-    <?php echo CHtml::encode($data->approved); ?>
+    <?php echo CHtml::encode($data->getApproveText()); ?>
     <br />
 
 	<?php /*

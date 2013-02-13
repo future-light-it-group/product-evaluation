@@ -1,18 +1,11 @@
-2013/02/11 21:48:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/ajax_loader.gif".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+2013/02/12 23:43:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
 Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/ajax_loader...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/img/ajax_loader.gif
-HTTP_REFERER=http://admin.review.local/product
----
-2013/02/11 21:48:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/user_avatar.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/user_avatar...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/product
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('product/img/no-...')
+#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/product/img/no-image
+HTTP_REFERER=http://admin.review.local/product/create
 ---

@@ -23,7 +23,7 @@
                             <div class="accordion-body collapse" id="collapseOne">
                                 <div class="accordion-inner">
                                     <ul class="nav nav-list">
-                                        <li><a href="themsanpham.php">Thêm sản phẩm</a></li>
+                                        <li><a href="<?php echo Yii::app()->createUrl('product/create')?>">Thêm sản phẩm</a></li>
                                         <li><a href="thembaiviet.php">Thêm bài viết</a></li>
                                         <li><a href="javascript:void(0)">Thêm tin tức</a></li>
                                         <li><a href="javascript:void(0)">Thêm đối tác</a></li>
