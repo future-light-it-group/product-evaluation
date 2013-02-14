@@ -3610,6 +3610,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .delete_rows_dt {
     position: absolute;
     z-index: 9;
+    margin-top: 10px;
 }
 
 #large-product-thumb {

@@ -36,7 +36,7 @@ class ProductController extends Controller
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete','visible'),
+				'actions'=>array('admin','delete','visible','deleteall'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -225,6 +225,28 @@ class ProductController extends Controller
         }
         if(!isset($_GET['ajax']))
             $this->redirect(Yii::app()->request->urlReferrer);
+    }
+
+    public function actionDeleteall() {
+       if(isset($_POST['cid'])) {
+           $items = $_POST['cid'];
+           foreach($items as $item) {
+               //delete each item
+               $model = $this->loadModel($item);
+               $old_image = $model->image;
+               //delete in database
+               $model->delete();
+               //unlink the image
+               if(!empty($old_image)) {
+                   unlink(substr(Yii::getPathOfAlias('upload_img_dir'),1) . DIRECTORY_SEPARATOR .  $old_image);
+               }
+
+
+
+           }
+
+       }
+
     }
 
 	/**

@@ -6,6 +6,7 @@
 .grid-view
 {
 	padding: 15px 0;
+    margin-top: 45px;
 }
 
 .grid-view table.items

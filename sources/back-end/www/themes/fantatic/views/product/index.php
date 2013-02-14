@@ -10,22 +10,24 @@ $this->breadcrumbs = array(
 ?>
 
 <h1>Danh sách sản phẩm</h1>
-
+<a href="#" class="btn delete_rows_dt"><i class="icon-trash"></i>  Xóa tất cả</a>
+<!--delete all button --->
 <?php
 
-//echo CHtml::image(CHtml::encode('upload/images/cpu-intel-1.jpeg'));
-//exit;
 $this->widget('zii.widgets.grid.CGridView', array(
     'id' => 'product-grid',
     'dataProvider' => $dataProvider,
     'itemsCssClass'=>'table table-bordered table-striped table_vam',
     'columns' => array(
-
-        'id',
+        array(
+            'name'=>'',
+            'type'=>'raw',
+            'value'=>'CHtml::checkBox("cid[]",false,array("value"=>"$data->id"))',
+        ),
         'name',
         array(
             'name'=>'image',
-            'type'=>'html',
+            'type'=>'raw',
             'value'=>'CHtml::image(Yii::getPathOfAlias("upload_img_dir") . DIRECTORY_SEPARATOR . $data->image,"Đang cập nhật",array("width"=>"123","height"=>"123"))',
 
         ),
@@ -96,3 +98,47 @@ $this->widget('zii.widgets.grid.CGridView', array(
         ),
     ),
 )); ?>
+
+<script>
+    $(document).ready(function(){
+        $('.delete_rows_dt').click(function(){
+             //check input checkbox at least 1 check
+             var checks = $('input[name="cid[]"]:checked').length;
+             if(checks<1) {
+                 alert('Xin chọn ít nhất 1 dòng để xóa!');
+             } else {
+                 //do ajax here to delete all selected
+                 var checked_data = $('input[name="cid[]"]:checked').serialize();
+                 jQuery.ajax({
+                     url: "<?php print($this->createUrl('product/deleteall')) ?>",
+                     type:"POST",
+                     data:checked_data,
+                     error: function(xhr,tStatus,e){
+                         if(!xhr){
+                             alert(" Có lỗi trong qúa trình  ");
+                             alert(tStatus+"   "+e.message);
+                         }else{
+                             alert("else: "+e.message); // the great unknown
+                         }
+                     },
+
+                     // success reponse
+                     success: function(resData){
+                          //update grid
+                          $.fn.yiiGridView.update('product-grid');
+
+
+                     }
+
+
+
+                 })
+             }
+
+        });
+
+
+
+
+    })
+</script>
