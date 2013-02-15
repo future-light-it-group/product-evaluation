@@ -111,17 +111,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/upload/images/cpu-amd-1.jpeg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/upload/images/vga-asus-1.jpeg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/upload/images/vga-asus-2.jpeg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/controllers/ProductController.php" afterPath="$PROJECT_DIR$/sources/back-end/controllers/ProductController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/runtime/application.log.1" afterPath="$PROJECT_DIR$/sources/back-end/runtime/application.log.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/runtime/application.log.2" afterPath="$PROJECT_DIR$/sources/back-end/runtime/application.log.2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/runtime/application.log.3" afterPath="$PROJECT_DIR$/sources/back-end/runtime/application.log.3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/runtime/application.log.4" afterPath="$PROJECT_DIR$/sources/back-end/runtime/application.log.4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/runtime/application.log.5" afterPath="$PROJECT_DIR$/sources/back-end/runtime/application.log.5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/runtime/application.log" afterPath="$PROJECT_DIR$/sources/back-end/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/gridview/styles.css" afterPath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/gridview/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/css/style.css" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/index.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/index.php" />
     </list>
     <ignored path="product-evaluation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -746,8 +735,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1282" height="775" extended-state="7" />
-    <editor active="true" />
+    <frame x="-1" y="0" width="1282" height="775" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.68" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
