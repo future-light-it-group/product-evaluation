@@ -27,6 +27,7 @@ return array(
         'application.components.*',
     ),
 
+
     'modules' => array(
         // uncomment the following to enable the Gii tool
 
@@ -47,9 +48,11 @@ return array(
             'allowAutoLogin' => true,
         ),
 
-        'time' => array(
-            'class'=> 'ext.Time',
+
+        'browser' => array(
+            'class' => 'application.extensions.Browser.CBrowserComponent',
         ),
+
 
         // uncomment the following to enable URLs in path-format
         'urlManager'=>array(

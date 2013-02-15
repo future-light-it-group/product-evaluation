@@ -75,8 +75,8 @@ $this->widget('zii.widgets.grid.CGridView', array(
                     'url' => 'Yii::app()->createUrl("/product/visible", array("id"=>$data->id))',
                     'options' => array('class' => 'icon-eye-open', 'title' => 'Enable/Disable visible this product'),
                     'imageUrl' => '/img/glyphicons-halflings.png',
-                    'click' => "function(){
-                                        var url = $(this).attr('href');
+                    'click' => "js:function(){
+                                    var url = $(this).attr('href');
                                     $.fn.yiiGridView.update('product-grid', {  //change my-grid to your grid's name
                                         type:'POST',
                                         url:$(this).attr('href'),

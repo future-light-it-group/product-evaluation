@@ -1,13 +1,14 @@
 <?php /* @var $this Controller */ ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="language" content="en"/>
-
+    <meta charset="UTF-8">
+    <meta name="keywords" content="en"/>
     <?php
-
+        Yii::app()->clientScript->registerCoreScript('jquery');
+        Yii::app()->clientScript->registerCoreScript('jquery.ui');
+    ?>
+    <?php
         include'basic-style.php';
          if($this->getUniqueId() == 'product') {
              if($this->action->getId() == 'update') {
@@ -31,7 +32,7 @@
 
     <!-- main content -->
     <div id="contentwrapper">
-        <a class="sidebar_switch ttip_r on_switch" href="javascript:void(0)" oldtitle="Hide Sidebar"
+        <a class="sidebar_switch ttip_r on_switch" href="javascript:void(0)"
            aria-describedby="ui-tooltip-3">Sidebar switch</a>
 
         <div class="main_content">
@@ -46,7 +47,7 @@
             <?php endif?>
             <?php //include'breadcumb.php'?>
 
-            <!--- content --->
+            <!-- content -->
             <?php echo $content; ?>
 
             <div class="clear"></div>
@@ -56,7 +57,7 @@
             <?php include 'sidebar.php'?>
             <?php include 'basic-script.php' ?>
 
-            <!--external script--->
+            <!--external script-->
             <?php
             if ($this->getUniqueId() == 'site') {
                 include 'custom-scripts/dashboard.php';
@@ -72,7 +73,6 @@
 
                 }
             }
-
             ?>
         </div>
     </div>

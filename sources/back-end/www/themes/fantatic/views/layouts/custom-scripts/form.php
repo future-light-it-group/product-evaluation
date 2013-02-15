@@ -12,9 +12,6 @@
 <script src="<?php echo Yii::app()->theme->baseUrl . '/lib/validation/jquery.validate.min.js'?>"></script>
 <!-- validation functions -->
 <script src="<?php echo Yii::app()->theme->baseUrl . '/js/gebo_validation.js'?>"></script>
-<script src="<?php echo Yii::app()->theme->baseUrl . '/lib/jquery-ui/jquery-ui-1.8.23.custom.min.js'?>"></script>
-<!-- touch events for jquery ui-->
-<script src="<?php echo Yii::app()->theme->baseUrl . '/js/forms/jquery.ui.touch-punch.min.js'?>"></script>
 <!-- masked inputs -->
 <script src="<?php echo Yii::app()->theme->baseUrl . '/js/forms/jquery.inputmask.min.js'?>"></script>
 <!-- autosize textareas -->

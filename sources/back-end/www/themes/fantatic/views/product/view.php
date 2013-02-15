@@ -7,7 +7,6 @@ $this->breadcrumbs=array(
 	$model->name,
 );
 ?>
-<script src="<?php echo Yii::app()->theme->baseUrl . '/js/jquery.min.js'?>"></script>
 <h1>Chi tiết sản phẩm <?php echo $model->name; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(

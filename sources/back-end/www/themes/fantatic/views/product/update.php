@@ -15,8 +15,6 @@ $this->menu=array(
 	array('label'=>'Manage Product', 'url'=>array('admin')),
 );*/
 ?>
-<!--essential javascript -->
-<script src="<?php echo Yii::app()->theme->baseUrl . '/js/jquery.min.js'?>"></script>
 <!-- first init image for view --->
 
 

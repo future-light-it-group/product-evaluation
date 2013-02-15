@@ -16,7 +16,7 @@ $(function(){
 	jQuery.ajaxQueue({
 		url: "test.php",
 		success: function(html){ jQuery("ul").append(html); }
-	});                                   e
+	});
 	jQuery.ajaxSync({
 		url: "test.php",
 		success: function(html){ jQuery("ul").append("<b>"+html+"</b>"); }
