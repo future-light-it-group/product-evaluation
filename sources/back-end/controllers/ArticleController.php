@@ -66,7 +66,8 @@ class ArticleController extends Controller
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
-
+        $model->user_id = Yii::app()->user->getId();
+        $model->create_at = date('Y-m-d H:m:s',time());
 		if(isset($_POST['Article']))
 		{
 			$model->attributes=$_POST['Article'];

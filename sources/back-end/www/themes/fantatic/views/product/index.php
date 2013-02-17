@@ -8,10 +8,14 @@ $this->breadcrumbs = array(
 
 
 ?>
+<div class="row-fluid">
 
-<h1>Danh sách sản phẩm</h1>
+<h3 class="heading">Danh sách sản phẩm</h3>
 <a href="#" class="btn delete_rows_dt"><i class="icon-trash"></i>  Xóa tất cả</a>
 <!--delete all button --->
+
+<div id="list-product_wrapper" class="dataTables_wrapper form-inline" role="grid">
+
 <?php
 
 $this->widget('zii.widgets.grid.CGridView', array(
@@ -99,46 +103,42 @@ $this->widget('zii.widgets.grid.CGridView', array(
     ),
 )); ?>
 
+</div><!--end list-product_wrapper -->
+</div><!--end row-fluid -->
+
 <script>
     $(document).ready(function(){
         $('.delete_rows_dt').click(function(){
-             //check input checkbox at least 1 check
-             var checks = $('input[name="cid[]"]:checked').length;
-             if(checks<1) {
-                 alert('Xin chọn ít nhất 1 dòng để xóa!');
-             } else {
-                 //do ajax here to delete all selected
-                 var checked_data = $('input[name="cid[]"]:checked').serialize();
-                 jQuery.ajax({
-                     url: "<?php print($this->createUrl('product/deleteall')) ?>",
-                     type:"POST",
-                     data:checked_data,
-                     error: function(xhr,tStatus,e){
-                         if(!xhr){
-                             alert(" Có lỗi trong qúa trình  ");
-                             alert(tStatus+"   "+e.message);
-                         }else{
-                             alert("else: "+e.message); // the great unknown
-                         }
-                     },
+            //check input checkbox at least 1 check
+            var checks = $('input[name="cid[]"]:checked').length;
+            if(checks<1) {
+                alert('Xin chọn ít nhất 1 dòng để xóa!');
+            } else {
+                //do ajax here to delete all selected
 
-                     // success reponse
-                     success: function(resData){
-                          //update grid
-                          $.fn.yiiGridView.update('product-grid');
+                if(confirm("Bạn có muốn xóa các dòng dữ liệu này không ?")) {
+                var checked_data = $('input[name="cid[]"]:checked').serialize();
+                jQuery.ajax({
+                    url: "<?php print($this->createUrl('product/deleteall')) ?>",
+                    type:"POST",
+                    data:checked_data,
+                    error: function(xhr,tStatus,e){
+                        if(!xhr){
+                            alert(" Có lỗi trong qúa trình  ");
+                            alert(tStatus+"   "+e.message);
+                        }else{
+                            alert("else: "+e.message); // the great unknown
+                        }
+                    },
 
-
-                     }
-
-
-
-                 })
-             }
-
+                    // success reponse
+                    success: function(resData){
+                        //update grid
+                        $.fn.yiiGridView.update('product-grid');
+                    }
+                })
+                }
+            }
         });
-
-
-
-
     })
 </script>

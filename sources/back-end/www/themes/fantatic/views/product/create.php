@@ -10,6 +10,6 @@ $this->breadcrumbs=array(
 ?>
 
 
-<h1>Thêm mới sản phẩm</h1>
+<h3 class="heading">Thêm mới sản phẩm</h3>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="159bcac4-e04f-466b-9589-a01e36a42a4a" name="Default" comment="first init layout for back-end">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/components/PcLinkButton.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/components/views/productListWidget.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/extensions/EImageColumn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/extensions/Time.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/views/productCategory/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/views/productCategory/_search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/views/productCategory/_view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/views/productCategory/admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/views/productCategory/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/views/productCategory/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/views/productCategory/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/views/productCategory/view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/views/article/_form.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/211d197c/css/ie.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/211d197c/css/main.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/211d197c/css/print.css" afterPath="" />
@@ -119,22 +108,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/66ce0aed/treeview/images/treeview-red.gif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/66ce0aed/treeview/jquery.treeview.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/66ce0aed/yiitab/jquery.yiitab.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/b75fa0b5/pager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/detailview/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/gridview/bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/gridview/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/gridview/down.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/gridview/jquery.yiigridview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/gridview/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/gridview/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/gridview/up.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/gridview/update.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/gridview/view.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/listview/down.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/listview/jquery.yiilistview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/listview/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/listview/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d23b05bd/listview/up.gif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d5b4f663/css/ie.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d5b4f663/css/main.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d5b4f663/css/print.css" afterPath="" />
@@ -241,19 +214,53 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d726007a/treeview/jquery.treeview.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/assets/d726007a/yiitab/jquery.yiitab.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/img/lenovo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sources/back-end/www/upload/images/cpu-intel-1.jpeg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/article/_search.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/_search.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/article/_view.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/_view.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/article/admin.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/admin.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/article/create.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/create.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/article/index.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/article/update.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/update.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/article/view.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/view.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/articleCategory/_form.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/articleCategory/_form.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/articleCategory/_search.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/articleCategory/_search.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/articleCategory/_view.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/articleCategory/_view.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/articleCategory/admin.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/articleCategory/admin.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/articleCategory/create.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/articleCategory/create.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/articleCategory/index.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/articleCategory/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/articleCategory/update.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/articleCategory/update.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/articleCategory/view.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/articleCategory/view.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/views/layouts/column1.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/column1.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/basic-script.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/elements/basic-script.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/basic-style.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/elements/basic-style.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/breadcumb.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/elements/breadcumb.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/header.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/elements/header.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/sidebar.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/elements/sidebar.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/style-switcher.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/elements/style-switcher.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/config/main.php" afterPath="$PROJECT_DIR$/sources/back-end/config/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/components/UserIdentity.php" afterPath="$PROJECT_DIR$/sources/back-end/components/UserIdentity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/controllers/ArticleController.php" afterPath="$PROJECT_DIR$/sources/back-end/controllers/ArticleController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/controllers/ProductController.php" afterPath="$PROJECT_DIR$/sources/back-end/controllers/ProductController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/controllers/SiteController.php" afterPath="$PROJECT_DIR$/sources/back-end/controllers/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/controllers/UserController.php" afterPath="$PROJECT_DIR$/sources/back-end/controllers/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/models/Article.php" afterPath="$PROJECT_DIR$/sources/back-end/models/Article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/runtime/application.log.1" afterPath="$PROJECT_DIR$/sources/back-end/runtime/application.log.1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/runtime/application.log.2" afterPath="$PROJECT_DIR$/sources/back-end/runtime/application.log.2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/runtime/application.log.3" afterPath="$PROJECT_DIR$/sources/back-end/runtime/application.log.3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/runtime/application.log.4" afterPath="$PROJECT_DIR$/sources/back-end/runtime/application.log.4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/runtime/application.log.5" afterPath="$PROJECT_DIR$/sources/back-end/runtime/application.log.5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/runtime/application.log" afterPath="$PROJECT_DIR$/sources/back-end/runtime/application.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/views/layouts/main.php" afterPath="$PROJECT_DIR$/sources/back-end/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/basic-script.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/basic-script.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/basic-style.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/basic-style.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/css/style.css" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/column2.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/column2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/custom-css/form-css.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/custom-css/form-css.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/custom-scripts/dashboard.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/custom-scripts/dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/custom-scripts/datatable.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/custom-scripts/datatable.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/custom-scripts/form.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/custom-scripts/form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/main.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/sidebar.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/_form.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/_form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/create.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/create.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/index.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/update.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/view.php" afterPath="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/view.php" />
     </list>
     <ignored path="product-evaluation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -278,10 +285,75 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="basic-style.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/basic-style.php">
+      <file leaf-file-name="ArticleController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sources/back-end/controllers/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="58" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.85">
+            <state line="86" column="81" selection-start="2220" selection-end="2220" vertical-scroll-proportion="-9.807693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/elements/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="82" selection-start="3840" selection-end="3840" vertical-scroll-proportion="-10.461538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="47" selection-start="381" selection-end="381" vertical-scroll-proportion="-7.8461537">
+              <folding>
+                <element signature="e#1228#2085#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Article.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sources/back-end/models/Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="144" column="71" selection-start="4668" selection-end="4668" vertical-scroll-proportion="-52.115383">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sources/back-end/models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="51.192307">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="32" selection-start="620" selection-end="620" vertical-scroll-proportion="-7.8461537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="76" selection-start="291" selection-end="291" vertical-scroll-proportion="0.46195653">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sources/back-end/controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="172" column="2" selection-start="4112" selection-end="4112" vertical-scroll-proportion="-15.5">
               <folding />
             </state>
           </provider>
@@ -309,26 +381,26 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sources/back-end/controllers/ProductController.php" />
-        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/sidebar.php" />
-        <option value="$PROJECT_DIR$/sources/back-end/controllers/ArticleController.php" />
-        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/index.php" />
-        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/lib/plupload/js/plupload.full.js" />
         <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/create.php" />
-        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/update.php" />
-        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/view.php" />
-        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/basic-script.php" />
-        <option value="$PROJECT_DIR$/sources/back-end/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/custom-scripts/form.php" />
-        <option value="$PROJECT_DIR$/sources/back-end/config/main.php" />
-        <option value="$PROJECT_DIR$/sources/back-end/extensions/Browser/CBrowserComponent.php" />
-        <option value="$PROJECT_DIR$/sources/back-end/extensions/Browser/Browser.php" />
+        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/index.php" />
+        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/css/style.css" />
+        <option value="$PROJECT_DIR$/sources/common/lib/yii/db/CDbCommand.php" />
+        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/column2.php" />
         <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/basic-style.php" />
+        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/_form.php" />
+        <option value="$PROJECT_DIR$/sources/back-end/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/sources/back-end/components/UserIdentity.php" />
+        <option value="$PROJECT_DIR$/sources/back-end/controllers/ArticleController.php" />
+        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/elements/header.php" />
+        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/_view.php" />
+        <option value="$PROJECT_DIR$/sources/back-end/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/sources/back-end/models/Article.php" />
+        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/view.php" />
+        <option value="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/index.php" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP Home" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="width" value="1282" />
@@ -426,8 +498,26 @@
               <option name="myItemId" value="back-end" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
+              <option name="myItemId" value="product-evaluation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product-evaluation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="back-end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -449,19 +539,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fantatic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -483,145 +561,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fantatic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back-end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fantatic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back-end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back-end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back-end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extensions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Browser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back-end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -631,25 +571,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../yii-examples/chapter05" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article" />
       <recent name="$PROJECT_DIR$/sources/back-end/components" />
       <recent name="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts" />
       <recent name="$PROJECT_DIR$/sources/back-end/extensions" />
       <recent name="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product" />
-      <recent name="$PROJECT_DIR$/sources/back-end/www/upload/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sources/back-end/extensions/Browser" />
-      <recent name="$PROJECT_DIR$/sources/back-end/extensions" />
-      <recent name="$PROJECT_DIR$/sources/back-end/components" />
+      <recent name="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/elements" />
+      <recent name="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/elements/" />
+      <recent name="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts" />
       <recent name="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views" />
-      <recent name="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product" />
+      <recent name="$PROJECT_DIR$/sources/back-end/extensions/Browser" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.main.php">
+    <configuration default="false" name="main.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/main.php">
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -657,7 +603,14 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.main.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.main.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
@@ -725,10 +678,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.68" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22042139" sideWeight="0.5536" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20097245" sideWeight="0.6704" order="4" side_tool="false" content_ui="combo" x="1044" y="108" width="236" height="625" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.6704" order="4" side_tool="false" content_ui="combo" x="1044" y="108" width="236" height="625" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2439222" sideWeight="0.2176" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -801,118 +754,122 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/update.php">
+    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/elements/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="2" selection-start="459" selection-end="459" vertical-scroll-proportion="-10.461538">
+        <state line="22" column="64" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.69906545">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/admin.php">
+    <entry file="file://$PROJECT_DIR$/sources/common/lib/yii/base/CModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="151" column="20" selection-start="6143" selection-end="6143" vertical-scroll-proportion="0.34879407">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/create.php">
+    <entry file="file://$PROJECT_DIR$/sources/common/lib/yii/web/auth/CUserIdentity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="46" selection-start="217" selection-end="217" vertical-scroll-proportion="-9.153846">
+        <state line="65" column="20" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.35435992">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/font-end/views/layouts/main.php">
+    <entry file="file://$PROJECT_DIR$/sources/back-end/components/UserIdentity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="87" selection-start="802" selection-end="802" vertical-scroll-proportion="0.6636637">
+        <state line="37" column="0" selection-start="999" selection-end="999" vertical-scroll-proportion="-16.153847">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/lib/jBreadcrumbs/jBreadCrumb.html">
+    <entry file="file://$PROJECT_DIR$/sources/back-end/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="9" column="34" selection-start="160" selection-end="160" vertical-scroll-proportion="0.28385898">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/back-end/views/layouts/main.php">
+    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="51" selection-start="2017" selection-end="2017" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/custom-scripts/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="19" selection-start="2079" selection-end="2079" vertical-scroll-proportion="-6.5384617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/style-switcher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="75" selection-start="275" selection-end="275" vertical-scroll-proportion="0.3063063">
+        <state line="49" column="50" selection-start="1630" selection-end="1630" vertical-scroll-proportion="1.4875">
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1361112358480" expanded="true" signature="2394:2438" placeholder="..." />
+            <marker date="1361112358480" expanded="true" signature="2611:2653" placeholder="..." />
+            <marker date="1361112358480" expanded="true" signature="2869:2911" placeholder="..." />
+            <marker date="1361112358480" expanded="true" signature="3133:3175" placeholder="..." />
+            <marker date="1361112358480" expanded="true" signature="3405:3467" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/sidebar.php">
+    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/elements/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="57" selection-start="743" selection-end="743" vertical-scroll-proportion="-3.8431373">
+        <state line="64" column="82" selection-start="3840" selection-end="3840" vertical-scroll-proportion="-10.461538">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/product/view.php">
+    <entry file="file://$PROJECT_DIR$/sources/back-end/controllers/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="79" selection-start="391" selection-end="391" vertical-scroll-proportion="-13.730769">
+        <state line="86" column="81" selection-start="2220" selection-end="2220" vertical-scroll-proportion="-9.807693">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/basic-script.php">
+    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="48" selection-start="2428" selection-end="2446" vertical-scroll-proportion="0.5910714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/back-end/extensions/Browser/CBrowserComponent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="67" selection-start="618" selection-end="618" vertical-scroll-proportion="0.6375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/back-end/extensions/Browser/Browser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="267" column="46" selection-start="11374" selection-end="11374" vertical-scroll-proportion="0.5285714">
+        <state line="12" column="47" selection-start="381" selection-end="381" vertical-scroll-proportion="-7.8461537">
           <folding>
-            <element signature="e#6#4669#0" expanded="true" />
+            <element signature="e#1228#2085#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/main.php">
+    <entry file="file://$PROJECT_DIR$/sources/back-end/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="61" selection-start="930" selection-end="930" vertical-scroll-proportion="0.6982143">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="51.192307">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/back-end/config/main.php">
+    <entry file="file://$PROJECT_DIR$/sources/back-end/models/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="11" selection-start="1700" selection-end="1700" vertical-scroll-proportion="1.8394415">
+        <state line="199" column="55" selection-start="6738" selection-end="6738" vertical-scroll-proportion="-0.23005566">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/layouts/basic-style.php">
+    <entry file="file://$PROJECT_DIR$/sources/back-end/controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="58" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.85">
+        <state line="8" column="40" selection-start="226" selection-end="261" vertical-scroll-proportion="-6.4434137">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/back-end/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="2" selection-start="4112" selection-end="4112" vertical-scroll-proportion="-15.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/back-end/models/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="71" selection-start="4668" selection-end="4668" vertical-scroll-proportion="-52.115383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="32" selection-start="620" selection-end="620" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/back-end/www/themes/fantatic/views/article/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="76" selection-start="291" selection-end="291" vertical-scroll-proportion="0.46195653">
           <folding />
         </state>
       </provider>

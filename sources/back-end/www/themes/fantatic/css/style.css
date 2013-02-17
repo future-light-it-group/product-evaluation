@@ -3607,11 +3607,6 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
     float: right;
 }
 
-.delete_rows_dt {
-    position: absolute;
-    z-index: 9;
-    margin-top: 10px;
-}
 
 #large-product-thumb {
 
@@ -3647,3 +3642,16 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
     position: absolute;
     left: 480px;
 }
+
+
+/* cutome style */
+.grid-view {
+    padding: 50px 0;
+}
+
+.delete_rows_dt {
+    position: absolute;
+    z-index: 9;
+}
+
+/* end custome style */

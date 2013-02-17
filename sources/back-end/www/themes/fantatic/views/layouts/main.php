@@ -9,43 +9,32 @@
         Yii::app()->clientScript->registerCoreScript('jquery.ui');
     ?>
     <?php
-        include'basic-style.php';
-         if($this->getUniqueId() == 'product') {
-             if($this->action->getId() == 'update') {
+        include'elements/basic-style.php';
+
+             if($this->action->getId() == 'update' || $this->action->getId() == 'create') {
                  include 'custom-css/form-css.php';
              }
-         }
-
 
     ?>
 
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
-<body>
+<body class="ptrn_a">
 
-<?php include 'style-switcher.php' ?>
+<?php //include 'elements/style-switcher.php' ?>
 
 <div id="maincontainer" class="clearfix">
     <!-- header -->
-    <?php include 'header.php'?>
+    <?php include 'elements/header.php'?>
+     <!-- end header -->
 
     <!-- main content -->
     <div id="contentwrapper">
         <a class="sidebar_switch ttip_r on_switch" href="javascript:void(0)"
            aria-describedby="ui-tooltip-3">Sidebar switch</a>
 
-        <div class="main_content">
-
-
-            <!-- breadcrumbs -->
-            <?php if (isset($this->breadcrumbs)): ?>
-                <?php $this->widget('zii.widgets.CBreadcrumbs', array(
-                'links' => $this->breadcrumbs,
-            )); ?><!-- breadcrumbs -->
-
-            <?php endif?>
-            <?php //include'breadcumb.php'?>
+            <?php //include 'elements/breadcumb.php'?>
 
             <!-- content -->
             <?php echo $content; ?>
@@ -53,28 +42,27 @@
             <div class="clear"></div>
             <!--- end content --->
 
-            <!-- sidebar -->
-            <?php include 'sidebar.php'?>
-            <?php include 'basic-script.php' ?>
+            <?php include 'elements/basic-script.php' ?>
 
             <!--external script-->
             <?php
             if ($this->getUniqueId() == 'site') {
                 include 'custom-scripts/dashboard.php';
             }
-            if($this->getUniqueId() == 'product') {           // or Yii::app()->controller->id
-                if($this->action->getId() == 'index') {       // or  Yii::app()->controller->action->id
+
+            // or Yii::app()->controller->id
+            // or  Yii::app()->controller->action->id
+            switch($this->action->getId()) {
+                case 'index':{
                     include 'custom-scripts/datatable.php';
                 }
-
-                if($this->action->getId() != 'index') {
-
+                default: {
                     include 'custom-scripts/form.php';
-
                 }
             }
+
             ?>
-        </div>
+
     </div>
 </div>
 </body>

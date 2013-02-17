@@ -52,8 +52,8 @@ class Article extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, short_desc, full_desc, create_at, user_id, article_category_id', 'required'),
-			array('view_number, approved, user_id, article_category_id, product_id', 'numerical', 'integerOnly'=>true),
+			array('title, short_desc, full_desc, article_category_id', 'required'),
+			array('view_number, approved, article_category_id', 'numerical', 'integerOnly'=>true),
 			array('resource_img, resource_audio, resource_video', 'length', 'max'=>200),
 			array('update_at', 'safe'),
 			// The following rule is used by search().
@@ -83,19 +83,19 @@ class Article extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'title' => 'Title',
-			'short_desc' => 'Short Desc',
-			'full_desc' => 'Full Desc',
-			'create_at' => 'Create At',
-			'update_at' => 'Update At',
+			'title' => 'Tiêu đề',
+			'short_desc' => 'Giới thiệu',
+			'full_desc' => 'Nội dung',
+			'create_at' => 'Ngày tạo',
+			'update_at' => 'Ngày cập nhật',
 			'view_number' => 'View Number',
-			'approved' => 'Approved',
-			'resource_img' => 'Resource Img',
-			'resource_audio' => 'Resource Audio',
-			'resource_video' => 'Resource Video',
-			'user_id' => 'User',
-			'article_category_id' => 'Article Category',
-			'product_id' => 'Product',
+			'approved' => 'Kích hoạt',
+			'resource_img' => 'Tài nguyên ảnh',
+			'resource_audio' => 'Tài nguyên audio',
+			'resource_video' => 'Tài nguyên video',
+			'user_id' => 'Tác giả',
+			'article_category_id' => 'Loại bài viết',
+			'product_id' => 'Sản phẩm',
 		);
 	}
 
@@ -129,4 +129,26 @@ class Article extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
+    public function getArticleCategoryOptions() {
+        $result =  Yii::app()->db->createCommand()
+            ->select(array('id','name'))
+            ->from('tbl_article_category')
+            ->queryAll();
+        $articleCategories = array();
+
+        foreach($result as $key=>$value) {
+            $articleCategories[$value['id']] = $value['name'];
+
+        }
+
+        return $articleCategories;
+    }
+
+    public function getUserText($id) {
+        $model = User::model()->find('id=:UserId',array(':UserId'=>$id));
+        return $model->username;
+    }
+
+
 }
