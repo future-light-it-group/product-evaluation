@@ -1,0 +1,3 @@
+#Rule ignore .idea directory 
+
+.idea/*
