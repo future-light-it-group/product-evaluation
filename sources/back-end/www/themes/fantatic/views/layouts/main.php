@@ -8,6 +8,7 @@
         Yii::app()->clientScript->registerCoreScript('jquery');
         Yii::app()->clientScript->registerCoreScript('jquery.ui');
     ?>
+
     <?php
         include'elements/basic-style.php';
 
@@ -16,6 +17,11 @@
              }
 
     ?>
+    <script type="text/javascript">
+        tinyMCE.init({
+            mode : "textareas"
+        });
+    </script>
 
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>

@@ -4,6 +4,9 @@
 /* @var $form CActiveForm */
 ?>
 
+
+
+
 <div class="row-fluid">
 
     <?php $form=$this->beginWidget('CActiveForm', array(
@@ -39,7 +42,7 @@
         <div class="span12 title_span">
         <?php echo $form->labelEx($model,'short_desc'); ?>
 
-        <?php echo $form->textField($model,'short_desc');//echo $form->textArea($model,'short_desc',array('name'=>'wysiwg_title','id'=>'wysiwg_title','rows'=>5, 'cols'=>50)); ?>
+        <?php echo $form->textArea($model,'short_desc',array('rows'=>5, 'cols'=>50)); ?>
         <?php echo $form->error($model,'short_desc'); ?>
         </div>
     </div>
@@ -47,7 +50,7 @@
     <div class="row-fluid">
         <div class="span12 content_span">
             <?php echo $form->labelEx($model,'full_desc'); ?>
-            <?php echo $form->textField($model,'full_desc')//echo $form->textArea($model,'full_desc',array('name'=>'wysiwg_content','id'=>'wysiwg_content','rows'=>15, 'cols'=>50)); ?>
+            <?php echo $form->textArea($model,'full_desc',array('rows'=>15, 'cols'=>50)); ?>
             <?php echo $form->error($model,'full_desc'); ?>
         </div>
     </div>

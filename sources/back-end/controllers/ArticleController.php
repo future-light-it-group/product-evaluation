@@ -71,6 +71,10 @@ class ArticleController extends Controller
 		if(isset($_POST['Article']))
 		{
 			$model->attributes=$_POST['Article'];
+            echo '<prev>';
+            print_r($_POST['Article']);
+            echo '</prev>';
+            exit;
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -123,10 +127,14 @@ class ArticleController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Article');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
+        $model=new Article('search');
+        $model->unsetAttributes();  // clear any default values
+        if(isset($_GET['Article']))
+            $model->attributes=$_GET['Article'];
+
+        $this->render('admin',array(
+            'model'=>$model,
+        ));
 	}
 
 	/**
