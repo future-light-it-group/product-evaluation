@@ -68,13 +68,10 @@ class ArticleController extends Controller
 		// $this->performAjaxValidation($model);
         $model->user_id = Yii::app()->user->getId();
         $model->create_at = date('Y-m-d H:m:s',time());
+
 		if(isset($_POST['Article']))
 		{
 			$model->attributes=$_POST['Article'];
-            echo '<prev>';
-            print_r($_POST['Article']);
-            echo '</prev>';
-            exit;
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -127,14 +124,10 @@ class ArticleController extends Controller
 	 */
 	public function actionIndex()
 	{
-        $model=new Article('search');
-        $model->unsetAttributes();  // clear any default values
-        if(isset($_GET['Article']))
-            $model->attributes=$_GET['Article'];
-
-        $this->render('admin',array(
-            'model'=>$model,
-        ));
+		$dataProvider=new CActiveDataProvider('Article');
+		$this->render('index',array(
+			'dataProvider'=>$dataProvider,
+		));
 	}
 
 	/**

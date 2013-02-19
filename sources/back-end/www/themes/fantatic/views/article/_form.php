@@ -4,7 +4,15 @@
 /* @var $form CActiveForm */
 ?>
 
+<script type="text/javascript">
+    tinyMCE.init({
+        mode : "textareas",
+        theme : "advanced",
+        width:"915px",
+        plugins : "emotions,spellchecker,advhr,insertdatetime,preview"
 
+    });
+</script>
 
 
 <div class="row-fluid">
@@ -16,7 +24,7 @@
 
     <div class="formSep">
 
-    <p class="note">Fields with <span class="required">*</span> are required.</p>
+        <p class="note">Các trường có dấu <span class="required">*</span> phải được điền đầy đủ thông tin.</p>
 
     <?php echo $form->errorSummary($model); ?>
 
@@ -41,8 +49,7 @@
     <div class="row-fluid">
         <div class="span12 title_span">
         <?php echo $form->labelEx($model,'short_desc'); ?>
-
-        <?php echo $form->textArea($model,'short_desc',array('rows'=>5, 'cols'=>50)); ?>
+        <?php echo $form->textArea($model,'short_desc',array('rows'=>10, 'cols'=>50)); ?>
         <?php echo $form->error($model,'short_desc'); ?>
         </div>
     </div>
@@ -50,7 +57,7 @@
     <div class="row-fluid">
         <div class="span12 content_span">
             <?php echo $form->labelEx($model,'full_desc'); ?>
-            <?php echo $form->textArea($model,'full_desc',array('rows'=>15, 'cols'=>50)); ?>
+            <?php echo $form->textArea($model,'full_desc',array('rows'=>20, 'cols'=>50)); ?>
             <?php echo $form->error($model,'full_desc'); ?>
         </div>
     </div>
@@ -60,21 +67,13 @@
         <div class="span4">
             <label><span class="error_placement">Trạng thái</span> <span
                     class="f_req">*</span></label>
-            <label class="radio inline">
-                <input type="radio" value="option6" name="status"/>
-                Kích hoạt
-            </label>
-            <label class="radio inline">
-                <input type="radio" value="option7" name="status"/>
-                Hủy bỏ
-            </label>
-        </div>
-    </div>
+            <?php echo $form->labelEx($model,'approved'); ?>
+            <?php echo $form->radioButtonList($model,'approved',$model->getApproveOptions(),array(
+            'labelOptions'=>array('style'=>'display:inline'), // add this code
+                                  'separator'=>' ',)) ?>
+            <?php echo $form->error($model,'approved'); ?>
 
-    <div class="row-fluid">
-        <?php //echo $form->labelEx($model,'approved'); ?>
-        <?php //echo $form->textField($model,'approved'); ?>
-        <?php //echo $form->error($model,'approved'); ?>
+        </div>
     </div>
 
     <div class="row-fluid">

@@ -16,7 +16,7 @@ $this->menu=array(
 );
 ?>
 
-<h3 class="heading">Xem bài viết # <?php echo $model->id; ?></h3>
+<h3 class="heading">Xem bài viết # <?php echo $model->title; ?></h3>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

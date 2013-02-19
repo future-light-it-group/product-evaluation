@@ -52,7 +52,7 @@ class Article extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, short_desc, full_desc, article_category_id', 'required'),
+			array('title, short_desc ,full_desc, article_category_id', 'required'),
 			array('view_number, approved, article_category_id', 'numerical', 'integerOnly'=>true),
 			array('resource_img, resource_audio, resource_video', 'length', 'max'=>200),
 			array('update_at', 'safe'),
@@ -148,6 +148,10 @@ class Article extends CActiveRecord
     public function getUserText($id) {
         $model = User::model()->find('id=:UserId',array(':UserId'=>$id));
         return $model->username;
+    }
+
+    public function getApproveOptions() {
+        return array('Đang hủy bỏ','Đang kích hoạt');
     }
 
 

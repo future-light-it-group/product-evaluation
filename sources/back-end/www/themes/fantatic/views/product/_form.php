@@ -99,7 +99,8 @@
 
     <div class="row-fluid">
         <?php echo $form->labelEx($model, 'approved'); ?>
-        <?php echo $form->dropDownList($model, 'approved',$model->getApproveOptions(),array('selected'=>($model->approved==1)?true:false)); ?>
+        <?php echo $form->radioButtonList($model, 'approved',$model->getApproveOptions(),array('labelOptions'=>array('style'=>'display:inline'), // add this code
+                                  'separator'=>' ',)); ?>
         <?php echo $form->error($model, 'approved'); ?>
     </div>
 

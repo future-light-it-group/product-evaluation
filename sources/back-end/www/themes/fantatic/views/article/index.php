@@ -11,11 +11,6 @@ $this->breadcrumbs=array(
 
 <a href="#" class="btn delete_rows_dt"><i class="icon-trash"></i>  Xóa tất cả</a>
 <!--delete all button --->
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
-<div class="search-form" style="display:none">
-    <?php $this->renderPartial('_search',array(
-    'model'=>$model,
-)); ?>
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
     'id'=>'article-grid',

@@ -19,7 +19,7 @@ $this->menu=array(
 
 
 
-<h1>Cập nhật sản phẩm <?php echo $model->name; ?></h1>
+<h3 class="heading">Cập nhật sản phẩm <?php echo $model->name; ?></h3>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
 
