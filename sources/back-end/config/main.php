@@ -81,7 +81,7 @@ return array(
             'connectionString' => 'mysql:host=localhost;dbname=review_db',
             'emulatePrepare' => true,
             'username' => 'root',
-            'password' => 'one@123',
+            'password' => '',
             'charset' => 'utf8',
         ),
 
