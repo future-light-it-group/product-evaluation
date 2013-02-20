@@ -171,12 +171,43 @@ class ProductController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Product',array(
-            'pagination'=>array('pageSize'=>4),
-        ));
+
+       /*
+        $model = new Product('search');
+		if(empty($_GET['Product'])) {
+            $dataProvider=new CActiveDataProvider('Product',array(
+                'pagination'=>array('pageSize'=>4),
+            ));
+        } else {
+
+            $productSearch =  $_GET['Product'];
+
+            echo ("ssa");
+            exit;
+
+            $criteria=new CDbCriteria();
+            $criteria->compare('name',$productSearch->name,true);
+            $dataProvider=new CActiveDataProvider('Product',array(
+                'criteria'=>$criteria,
+                'pagination'=>array('pageSize'=>4),
+
+            ));
+        }
+
+
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
+       */
+        $model=new Product('search');
+        $model->unsetAttributes();  // clear any default values
+        if(isset($_GET['Product']))
+            $model->attributes=$_GET['Product'];
+
+        $this->render('index',array(
+            'model'=>$model,
+        ));
+
 	}
 
 	/**

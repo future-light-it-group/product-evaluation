@@ -140,8 +140,9 @@ class Product extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
+        $criteria->compare('name',$this->name,true);  // search by name
+        /*
 		$criteria->compare('id',$this->id);
-		$criteria->compare('name',$this->name,true);
 		$criteria->compare('price',$this->price);
 		$criteria->compare('old_price',$this->old_price);
 		$criteria->compare('in_stock',$this->in_stock);
@@ -157,9 +158,10 @@ class Product extends CActiveRecord
 		$criteria->compare('product_category_id',$this->product_category_id);
 		$criteria->compare('manufacture_id',$this->manufacture_id);
 		$criteria->compare('distributor_id',$this->distributor_id);
-
+        */
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+            'pagination'=>array('pageSize'=>4),
 		));
 	}
 

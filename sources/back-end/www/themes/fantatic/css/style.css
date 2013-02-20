@@ -3645,13 +3645,47 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 
 /* cutome style */
+
 .grid-view {
-    padding: 50px 0;
+    margin-top: -10px;
 }
 
 .delete_rows_dt {
     position: absolute;
     z-index: 9;
+    top: 200px;
 }
+
+/* start mini search-form */
+.form-search-product {
+    float: left;
+    margin-left:620px;
+    width: auto;
+    height: 45px;
+
+}
+
+.form-search-product .row {
+    float: left;
+}
+
+.search-form .findlabel {
+   float:left;
+   margin:15px 10px 0 0;
+
+}
+
+.search-form .btnfind {
+
+    margin: -69px 0 0 287px;
+}
+
+.search-form .findtext {
+    float:left;
+    margin-top: 10px;
+}
+
+
+/* end mini-search-form  */
 
 /* end custome style */

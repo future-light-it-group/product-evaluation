@@ -17,16 +17,11 @@
              }
 
     ?>
-    <script type="text/javascript">
-        tinyMCE.init({
-            mode : "textareas"
-        });
-    </script>
 
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
-<body class="ptrn_a">
+<body>
 
 <?php //include 'elements/style-switcher.php' ?>
 

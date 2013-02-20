@@ -6,7 +6,6 @@ $this->breadcrumbs = array(
     'Products',
 );
 
-
 ?>
 <div class="row-fluid">
 
@@ -14,13 +13,31 @@ $this->breadcrumbs = array(
 <a href="#" class="btn delete_rows_dt"><i class="icon-trash"></i>  Xóa tất cả</a>
 <!--delete all button --->
 
+<?php
+    Yii::app()->clientScript->registerScript('search', "
+$('.search-form form-search-product').submit(function(){
+	$('#product-grid').yiiGridView('update', {
+		data: $(this).serialize()
+	});
+	return false;
+});
+");
+
+?>
+<div class="search-form">
+    <?php $this->renderPartial('_search',array(
+    'model'=>Product::model(),
+)); ?>
+
+</div><!-- search-form -->
+
 <div id="list-product_wrapper" class="dataTables_wrapper form-inline" role="grid">
 
 <?php
 
 $this->widget('zii.widgets.grid.CGridView', array(
     'id' => 'product-grid',
-    'dataProvider' => $dataProvider,
+    'dataProvider' => $model->search(),
     'itemsCssClass'=>'table table-bordered table-striped table_vam',
     'columns' => array(
         array(
@@ -106,7 +123,9 @@ $this->widget('zii.widgets.grid.CGridView', array(
 </div><!--end list-product_wrapper -->
 </div><!--end row-fluid -->
 
+
 <script>
+
     $(document).ready(function(){
         $('.delete_rows_dt').click(function(){
             //check input checkbox at least 1 check
