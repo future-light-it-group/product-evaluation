@@ -15,7 +15,7 @@ $this->breadcrumbs = array(
 
 <?php
     Yii::app()->clientScript->registerScript('search', "
-$('.search-form form-search-product').submit(function(){
+$('.search-form form-search-item').submit(function(){
 	$('#product-grid').yiiGridView('update', {
 		data: $(this).serialize()
 	});

@@ -36,7 +36,7 @@ class ProductController extends Controller
 				'users'=>array('@'),
 			),*/
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('index','view','admin','delete','visible','deleteall','create','update'),
+				'actions'=>array('index','view','delete','visible','deleteall','create','update'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -104,9 +104,6 @@ class ProductController extends Controller
 		$model=$this->loadModel($id);
         // Uncomment the following line if AJAX validation is needed
         // $this->performAjaxValidation($model);
-
-
-
 		if(isset($_POST['Product']))
 		{
             $old_image = $model->image;
@@ -128,7 +125,9 @@ class ProductController extends Controller
                     // remove if have the old image file
 
                     if(!empty($old_image)) {
-                        unlink(substr(Yii::getPathOfAlias('upload_img_dir'),1) . DIRECTORY_SEPARATOR .  $old_image);
+                        try {
+                            unlink(substr(Yii::getPathOfAlias('upload_img_dir'),1) . DIRECTORY_SEPARATOR .  $old_image);
+                        } catch(Exception $e) {}
                     }
                 }
                 $this->redirect(array('view','id'=>$model->id));
@@ -172,37 +171,10 @@ class ProductController extends Controller
 	public function actionIndex()
 	{
 
-       /*
-        $model = new Product('search');
-		if(empty($_GET['Product'])) {
-            $dataProvider=new CActiveDataProvider('Product',array(
-                'pagination'=>array('pageSize'=>4),
-            ));
-        } else {
-
-            $productSearch =  $_GET['Product'];
-
-            echo ("ssa");
-            exit;
-
-            $criteria=new CDbCriteria();
-            $criteria->compare('name',$productSearch->name,true);
-            $dataProvider=new CActiveDataProvider('Product',array(
-                'criteria'=>$criteria,
-                'pagination'=>array('pageSize'=>4),
-
-            ));
-        }
-
-
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
-       */
         $model=new Product('search');
         $model->unsetAttributes();  // clear any default values
-        if(isset($_GET['Product']))
-            $model->attributes=$_GET['Product'];
+        if(isset($_POST['Product']))
+            $model->attributes=$_POST['Product'];
 
         $this->render('index',array(
             'model'=>$model,
@@ -213,17 +185,6 @@ class ProductController extends Controller
 	/**
 	 * Manages all models.
 	 */
-	public function actionAdmin()
-	{
-		$model=new Product('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Product']))
-			$model->attributes=$_GET['Product'];
-
-		$this->render('admin',array(
-			'model'=>$model,
-		));
-	}
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.

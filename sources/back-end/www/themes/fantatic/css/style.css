@@ -3657,7 +3657,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 /* start mini search-form */
-.form-search-product {
+.form-search-item {
     float: left;
     margin-left:620px;
     width: auto;
@@ -3665,7 +3665,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 }
 
-.form-search-product .row {
+.form-search-item .row {
     float: left;
 }
 

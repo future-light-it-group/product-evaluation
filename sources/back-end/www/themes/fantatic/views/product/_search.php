@@ -4,11 +4,11 @@
 /* @var $form CActiveForm */
 ?>
 
-<div class="form-search-product">
+<div class="form-search-item">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'action'=>Yii::app()->createUrl($this->route),
-	'method'=>'get',
+	'method'=>'post',
 )); ?>
 
 	<div class="row">

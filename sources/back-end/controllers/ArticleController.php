@@ -27,16 +27,16 @@ class ArticleController extends Controller
 	public function accessRules()
 	{
 		return array(
-			array('allow',  // allow all users to perform 'index' and 'view' actions
+			/*array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
 				'users'=>array('@'),
-			),
+			),*/
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
+                'actions'=>array('index','view','delete','visible','deleteall','create','update'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -124,26 +124,19 @@ class ArticleController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Article');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
+        $model=new Article('search');
+        $model->unsetAttributes();  // clear any default values
+        if(isset($_POST['Article']))
+            $model->attributes=$_POST['Article'];
+
+        $this->render('index',array(
+            'model'=>$model,
+        ));
 	}
 
 	/**
 	 * Manages all models.
 	 */
-	public function actionAdmin()
-	{
-		$model=new Article('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Article']))
-			$model->attributes=$_GET['Article'];
-
-		$this->render('admin',array(
-			'model'=>$model,
-		));
-	}
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
@@ -172,7 +165,23 @@ class ArticleController extends Controller
 		}
 	}
 
+    public function actionDeleteall() {
+        if(isset($_POST['cid'])) {
+            $items = $_POST['cid'];
+            foreach($items as $item) {
+                //delete each item
+                $model = $this->loadModel($item);
+                //delete in database
+                $model->delete();
+                //unlink the image
+                /*if(!empty($old_image)) {
+                    unlink(substr(Yii::getPathOfAlias('upload_img_dir'),1) . DIRECTORY_SEPARATOR .  $old_image);
+                }*/
+            }
 
+        }
+
+    }
 
 
 }

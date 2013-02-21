@@ -110,9 +110,9 @@ class Article extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id',$this->id);
+		//$criteria->compare('id',$this->id);
 		$criteria->compare('title',$this->title,true);
-		$criteria->compare('short_desc',$this->short_desc,true);
+		/*$criteria->compare('short_desc',$this->short_desc,true);
 		$criteria->compare('full_desc',$this->full_desc,true);
 		$criteria->compare('create_at',$this->create_at,true);
 		$criteria->compare('update_at',$this->update_at,true);
@@ -123,10 +123,11 @@ class Article extends CActiveRecord
 		$criteria->compare('resource_video',$this->resource_video,true);
 		$criteria->compare('user_id',$this->user_id);
 		$criteria->compare('article_category_id',$this->article_category_id);
-		$criteria->compare('product_id',$this->product_id);
+		$criteria->compare('product_id',$this->product_id);*/
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+            'pagination'=>array('pageSize'=>4),
 		));
 	}
 
