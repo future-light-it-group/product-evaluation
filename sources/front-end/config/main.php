@@ -44,11 +44,6 @@ return array(
             'allowAutoLogin' => true,
         ),
 
-        'assetManager'=>array(
-            'basePath'=>Yii::getPathOfAlias('www') . '/assets',
-            'baseUrl'=>'http://localhost/product-evaluation/sources/www/assets',     // need to replace in real site
-        ),
-
         'urlManager'=>array(
             'urlFormat'=>'path',
             'showScriptName'=> false,

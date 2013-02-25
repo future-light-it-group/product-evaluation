@@ -17,7 +17,8 @@ Yii::setPathOfAlias('www',$root . '/www');
 Yii::setPathOfAlias('front',$root . '/front-end');
 
 /*====== resource dir ===================*/
-Yii::setPathOfAlias('image_upload_dir',$root . '/upload/images');
+
+Yii::setPathOfAlias('image_upload_dir', '/upload/images');
 
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
@@ -51,11 +52,6 @@ return array(
         'user' => array(
             // enable cookie-based authentication
             'allowAutoLogin' => true,
-        ),
-
-        'assetManager'=>array(
-            'basePath'=>Yii::getPathOfAlias('www') . '/assets',
-            'baseUrl'=>'http://localhost/product-evaluation/sources/www/assets',     // need to replace in real site
         ),
 
 
