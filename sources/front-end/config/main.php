@@ -13,17 +13,9 @@ Yii::setPathOfAlias('root', $root);
 Yii::setPathOfAlias('common', $root . '/common');
 Yii::setPathOfAlias('www',$root . '/www');
 
-/*====== front-end directory ====================*/
-Yii::setPathOfAlias('front',$root . '/front-end');
-
-/*====== resource dir ===================*/
-Yii::setPathOfAlias('image_upload_dir',$root . '/upload/images');
-
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
-    'name' => 'Admin Product Evaluation Website',
-    'theme' => 'fantatic',
-    'defaultController'=>'product',
+    'name' => 'Product Evaluation Website',
     // preloading 'log' component
     'preload' => array('log'),
 
@@ -43,7 +35,6 @@ return array(
             'ipFilters' => array('127.0.0.1', '::1'),
         ),
 
-
     ),
 
     // application components
@@ -58,18 +49,13 @@ return array(
             'baseUrl'=>'http://localhost/product-evaluation/sources/www/assets',     // need to replace in real site
         ),
 
-
-            'browser' => array(
-            'class' => 'application.extensions.Browser.CBrowserComponent',
-        ),
-
-
-        // uncomment the following to enable URLs in path-format
         'urlManager'=>array(
             'urlFormat'=>'path',
             'showScriptName'=> false,
         ),
 
+
+        // uncomment the following to enable URLs in path-format
         /*
         'urlManager'=>array(
             'urlFormat'=>'path',
@@ -122,6 +108,4 @@ return array(
         // this is used in contact page
         'adminEmail' => 'webmaster@example.com',
     ),
-
 );
-

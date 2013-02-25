@@ -2,57 +2,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
+    <meta charset="UTF-8">
+    <meta name="keywords" content="en"/>
+    <?php
+        Yii::app()->clientScript->registerCoreScript('jquery');
+        Yii::app()->clientScript->registerCoreScript('jquery.ui');
+    ?>
 
-	<!-- blueprint CSS framework -->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
-	<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
-	<![endif]-->
+    <?php
+        include'elements/basic-style.php';
 
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+             if($this->action->getId() == 'update' || $this->action->getId() == 'create') {
+                 include 'custom-css/form-css.php';
+             }
 
-	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+    ?>
+
+    <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
 <body>
-<div class="container" id="page">
 
-	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
-	</div><!-- header -->
+<?php //include 'elements/style-switcher.php' ?>
 
-	<div id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Contact', 'url'=>array('/site/contact')),
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-			),
-		)); ?>
-	</div><!-- mainmenu -->
-	<?php if(isset($this->breadcrumbs)):?>
-		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
-	<?php endif?>
+<div id="maincontainer" class="clearfix">
+    <!-- header -->
+    <?php include 'elements/header.php'?>
+     <!-- end header -->
 
-	<?php echo $content;  ?>
+    <!-- main content -->
+    <div id="contentwrapper">
+        <a class="sidebar_switch ttip_r on_switch" href="javascript:void(0)"
+           aria-describedby="ui-tooltip-3">Sidebar switch</a>
 
-	<div class="clear"></div>
+            <?php //include 'elements/breadcumb.php'?>
 
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
-	</div><!-- footer -->
+            <!-- content -->
+            <?php echo $content; ?>
 
-</div><!-- page -->
+            <div class="clear"></div>
+            <!--- end content --->
 
+            <?php include 'elements/basic-script.php' ?>
+
+            <!--external script-->
+            <?php
+            if ($this->getUniqueId() == 'site') {
+                include 'custom-scripts/dashboard.php';
+            }
+
+            // or Yii::app()->controller->id
+            // or  Yii::app()->controller->action->id
+            switch($this->action->getId()) {
+                case 'index':{
+                    include 'custom-scripts/datatable.php';
+                }
+                default: {
+                    include 'custom-scripts/form.php';
+                }
+            }
+
+            ?>
+
+    </div>
+</div>
 </body>
 </html>

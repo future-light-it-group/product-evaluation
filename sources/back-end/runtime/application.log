@@ -1,452 +1,279 @@
-2013/02/21 20:44:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
+2013/02/25 03:17:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/assets/d23b05bd/gridview/jquery.yiigridview.js".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('www/assets/d23b...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/www/assets/d23b05bd/gridview/jquery.yiigridview.js
+HTTP_REFERER=http://admin.review.local/product
+---
+2013/02/25 03:19:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://admin.review.local/product
+---
+2013/02/25 03:19:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/user_avatar.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/user_avatar...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/user_avatar.png
+HTTP_REFERER=http://admin.review.local/product
+---
+2013/02/25 03:19:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://admin.review.local/product
+---
+2013/02/25 03:19:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/user_avatar.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/user_avatar...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/user_avatar.png
+HTTP_REFERER=http://admin.review.local/product
+---
+2013/02/25 03:19:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
+---
+2013/02/25 03:21:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://admin.review.local/index.php
+---
+2013/02/25 03:21:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/user_avatar.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/user_avatar...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/user_avatar.png
+HTTP_REFERER=http://admin.review.local/index.php
+---
+2013/02/25 03:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/user_avatar.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/user_avatar...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/user_avatar.png
+HTTP_REFERER=http://admin.review.local/index.php
+---
+2013/02/25 03:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://admin.review.local/index.php
+---
+2013/02/25 03:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
+---
+2013/02/25 03:21:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
+#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/img/user_avatar.png
+HTTP_REFERER=http://admin.review.local/article/index
+---
+2013/02/25 03:21:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
+#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/img/user_avatar.png
+HTTP_REFERER=http://admin.review.local/article/index
+---
+2013/02/25 03:21:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
+---
+2013/02/25 03:21:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/lib/tag_handuniler/css/jquery.taghandler.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic/lib/tag_handuniler/css/jquery.taghandler.css
+HTTP_REFERER=http://admin.review.local/article/create
+---
+2013/02/25 03:21:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
+#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/img/user_avatar.png
+HTTP_REFERER=http://admin.review.local/article/create
+---
+2013/02/25 03:21:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
+#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/img/user_avatar.png
+HTTP_REFERER=http://admin.review.local/article/create
+---
+2013/02/25 03:21:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
+---
+2013/02/25 03:21:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/lib/tag_handuniler/css/jquery.taghandler.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic/lib/tag_handuniler/css/jquery.taghandler.css
+HTTP_REFERER=http://admin.review.local/product/create
+---
+2013/02/25 03:21:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
 Stack trace:
 #0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
 #1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
 #2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('product/img/use...')
 #3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
+#4 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/product/img/user_avatar.png
+HTTP_REFERER=http://admin.review.local/product/create
+---
+2013/02/25 03:21:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('product/img/use...')
+#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/product/img/user_avatar.png
+HTTP_REFERER=http://admin.review.local/product/create
+---
+2013/02/25 03:21:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
+---
+2013/02/25 03:21:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('product/img/use...')
+#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
 #5 {main}
 REQUEST_URI=/product/img/user_avatar.png
 HTTP_REFERER=http://admin.review.local/product/index
 ---
-2013/02/21 20:44:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
-HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
----
-2013/02/21 20:44:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+2013/02/25 03:21:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
 Stack trace:
 #0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
 #1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
 #3 {main}
 REQUEST_URI=/img/glyphicons-halflings.png
 HTTP_REFERER=http://admin.review.local/product/index
 ---
-2013/02/21 20:44:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
+2013/02/25 03:21:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://admin.review.local/product/index
+---
+2013/02/25 03:21:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
 Stack trace:
 #0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
 #1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
+#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('product/img/use...')
 #3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
+#4 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
 #5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
+REQUEST_URI=/product/img/user_avatar.png
+HTTP_REFERER=http://admin.review.local/product/index
 ---
-2013/02/21 20:44:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:44:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+2013/02/25 03:21:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
 Stack trace:
 #0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
 #1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
 #3 {main}
 REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
 HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
 ---
-2013/02/21 20:44:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
+2013/02/25 03:21:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
 Stack trace:
 #0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
 #1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
+#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('product/img/use...')
 #3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
+#4 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
 #5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
+REQUEST_URI=/product/img/user_avatar.png
+HTTP_REFERER=http://admin.review.local/product/index
 ---
-2013/02/21 20:44:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
+2013/02/25 03:21:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
 Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:44:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
 #1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
+#2 /var/www/product-evaluation/sources/www/back/index.php(14): CApplication->run()
 #3 {main}
-REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
-HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
----
-2013/02/21 20:45:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
-HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
----
-2013/02/21 20:45:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
-HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
----
-2013/02/21 20:45:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
-HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
----
-2013/02/21 20:45:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
-HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
----
-2013/02/21 20:45:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
-HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
----
-2013/02/21 20:45:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
-HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
----
-2013/02/21 20:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
-HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
----
-2013/02/21 20:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
-HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
----
-2013/02/21 20:45:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:45:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
-HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
----
-2013/02/21 20:46:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:46:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:46:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
-HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
----
-2013/02/21 20:46:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:46:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
-HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
----
-2013/02/21 20:47:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:47:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/product-evaluation/sources/common/lib/yii/web/CController.php:483
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(270): CController->missingAction('img')
-#1 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): CController->run('img')
-#2 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('article/img/use...')
-#3 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#4 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#5 {main}
-REQUEST_URI=/article/img/user_avatar.png
-HTTP_REFERER=http://admin.review.local/article/index
----
-2013/02/21 20:47:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
-Stack trace:
-#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
-#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
-#2 /var/www/product-evaluation/sources/back-end/www/index.php(14): CApplication->run()
-#3 {main}
-REQUEST_URI=/themes/fantatic/img/glyphicons-halflings-white.png
-HTTP_REFERER=http://admin.review.local/themes/fantatic/bootstrap/bootstrap.min.css
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://admin.review.local/product/index
 ---
