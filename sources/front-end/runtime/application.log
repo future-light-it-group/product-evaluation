@@ -69,3 +69,2484 @@ Stack trace:
 REQUEST_URI=/site/contact
 HTTP_REFERER=http://review.local/site/page/view/about
 ---
+2013/02/25 21:09:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "var/www/product-evaluation/sources/www/back/upload/images/1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('var/www/product...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/var/www/product-evaluation/sources/www/back/upload/images/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/
+---
+2013/02/25 21:09:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/25 21:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "var/www/product-evaluation/sources/www/back/upload/images/1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('var/www/product...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/var/www/product-evaluation/sources/www/back/upload/images/1361801245_Animal_panda_276208.jpg
+---
+2013/02/25 21:18:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "back/upload/images/1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('back/upload/ima...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/back/upload/images/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/
+---
+2013/02/25 21:18:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "back/upload/images/1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('back/upload/ima...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/back/upload/images/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/
+---
+2013/02/25 21:18:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "back/upload/images/1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('back/upload/ima...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/back/upload/images/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/
+---
+2013/02/25 21:18:30 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (/var/www/product-evaluation/sources/common/lib/yii/web/helpers/CHtml.php:98)
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/helpers/CHtml.php(153): renderAttributes()
+#1 /var/www/product-evaluation/sources/common/lib/yii/web/helpers/CHtml.php(426): tag()
+#2 /var/www/product-evaluation/sources/front-end/views/site/index.php(7): image()
+#3 /var/www/product-evaluation/sources/common/lib/yii/web/CBaseController.php(126): require()
+#4 /var/www/product-evaluation/sources/common/lib/yii/web/CBaseController.php(95): SiteController->renderInternal()
+#5 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(869): SiteController->renderFile()
+#6 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(782): SiteController->renderPartial()
+#7 /var/www/product-evaluation/sources/front-end/controllers/SiteController.php(32): SiteController->render()
+#8 /var/www/product-evaluation/sources/common/lib/yii/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(308): CInlineAction->runWithParams()
+#10 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(286): SiteController->runAction()
+#11 /var/www/product-evaluation/sources/common/lib/yii/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(282): SiteController->run()
+#13 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/product-evaluation/sources/www/front/index.php(14): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/product-evaluation/sources/front-end/views/site/index.php (7)
+in /var/www/product-evaluation/sources/front-end/controllers/SiteController.php (32)
+in /var/www/product-evaluation/sources/www/front/index.php (14)
+2013/02/25 21:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "back/upload/images/1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('back/upload/ima...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/back/upload/images/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/
+---
+2013/02/25 21:30:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "var/www/product-evaluation/sources/www/front../back/upload/images/1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('var/www/product...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/var/www/product-evaluation/sources/www/front../back/upload/images/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/
+---
+2013/02/25 21:30:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "var/www/product-evaluation/sources/www/front../back/upload/images/1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('var/www/product...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/var/www/product-evaluation/sources/www/front../back/upload/images/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/
+---
+2013/02/25 21:30:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "var/www/product-evaluation/sources/www/front../back/upload/images/1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('var/www/product...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/var/www/product-evaluation/sources/www/front../back/upload/images/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/
+---
+2013/02/25 21:31:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "var/www/product-evaluation/sources/www/front../back/upload/images/1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('var/www/product...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/var/www/product-evaluation/sources/www/front../back/upload/images/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/
+---
+2013/02/25 21:32:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "var/www/product-evaluation/sources/www/front../back/upload/images/1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('var/www/product...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/var/www/product-evaluation/sources/www/front../back/upload/images/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/
+---
+2013/02/25 21:32:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "var/www/product-evaluation/sources/www/front../back/upload/images/1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('var/www/product...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/var/www/product-evaluation/sources/www/front../back/upload/images/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/
+---
+2013/02/26 20:46:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "back".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('back')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/back
+---
+2013/02/26 20:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "back".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('back')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/back
+---
+2013/02/26 20:47:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "back".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('back')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/back
+---
+2013/02/26 20:47:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 20:59:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:00:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:00:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:00:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:00:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:00:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('home')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/home
+---
+2013/02/26 21:21:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:26:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:31:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:33:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:33:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:33:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:33:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:33:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:33:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:34:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:34:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:34:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:35:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:35:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:42:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:44:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "http://admin.review.local".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('http://admin.re...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 21:54:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "http://admin.review.local".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('http://admin.re...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:03:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:03:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:04:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:04:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:04:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:04:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:04:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:04:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:04:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:04:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:04:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:04:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:04:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('home')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/home
+---
+2013/02/26 22:08:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:08:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:08:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:08:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:08:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:10:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:10:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:10:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:10:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:11:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:11:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:11:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:11:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:12:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:12:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:12:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:15:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:16:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/
+---
+2013/02/26 22:16:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/
+---
+2013/02/26 22:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:18:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:41:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:42:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:42:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:42:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:42:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:42:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:42:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:42:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:57:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 22:57:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 23:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 23:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 23:40:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 23:43:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 23:46:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/26 23:47:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/
+---
+2013/02/26 23:54:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/27 00:07:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/27 00:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2013/02/27 00:25:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/
+---
+2013/02/27 00:26:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/front/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/
+---
+2013/02/27 09:47:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:47:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:47:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:47:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:48:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:48:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:48:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:48:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:48:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/user_avatar.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/user_avatar...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/user_avatar.png
+HTTP_REFERER=http://www.review.local/admin
+---
+2013/02/27 09:48:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/user_avatar.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/user_avatar...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/user_avatar.png
+HTTP_REFERER=http://www.review.local/admin
+---
+2013/02/27 09:48:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://www.review.local/themes/fantatic_admin/bootstrap/bootstrap.min.css
+---
+2013/02/27 09:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361803362_blue_9-wallpaper-1280x800.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361803362_blue...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361803362_blue_9-wallpaper-1280x800.jpg
+HTTP_REFERER=http://www.review.local/admin/product/index
+---
+2013/02/27 09:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361801245_Anim...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://www.review.local/admin/product/index
+---
+2013/02/27 09:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://www.review.local/admin/product/index
+---
+2013/02/27 09:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361803981_Animal_panda_331288.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361803981_Anim...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361803981_Animal_panda_331288.jpg
+HTTP_REFERER=http://www.review.local/admin/product/index
+---
+2013/02/27 09:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361813801_blue_9-wallpaper-1280x800.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361813801_blue...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361813801_blue_9-wallpaper-1280x800.jpg
+HTTP_REFERER=http://www.review.local/admin/product/index
+---
+2013/02/27 09:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361803362_blue_9-wallpaper-1280x800.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361803362_blue...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361803362_blue_9-wallpaper-1280x800.jpg
+HTTP_REFERER=http://www.review.local/admin/product/index
+---
+2013/02/27 09:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361813801_blue_9-wallpaper-1280x800.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361813801_blue...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361813801_blue_9-wallpaper-1280x800.jpg
+HTTP_REFERER=http://www.review.local/admin/product/index
+---
+2013/02/27 09:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361803981_Animal_panda_331288.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361803981_Anim...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361803981_Animal_panda_331288.jpg
+HTTP_REFERER=http://www.review.local/admin/product/index
+---
+2013/02/27 09:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://www.review.local/admin/product/index
+---
+2013/02/27 09:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361801245_Anim...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://www.review.local/admin/product/index
+---
+2013/02/27 09:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://www.review.local/themes/fantatic_admin/bootstrap/bootstrap.min.css
+---
+2013/02/27 09:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:51:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('index')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/index
+---
+2013/02/27 09:51:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/index
+---
+2013/02/27 09:51:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/index
+---
+2013/02/27 09:51:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/index
+---
+2013/02/27 09:51:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/index
+---
+2013/02/27 09:52:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:52:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:52:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:52:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 09:53:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/site/page?view=about
+---
+2013/02/27 09:53:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/site/page?view=about
+---
+2013/02/27 09:53:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/site/page?view=about
+---
+2013/02/27 09:53:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/site/page?view=about
+---
+2013/02/27 09:53:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 09:53:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 09:53:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 09:53:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 09:53:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/site/login
+---
+2013/02/27 09:53:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/site/login
+---
+2013/02/27 09:53:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/site/login
+---
+2013/02/27 09:53:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/site/login
+---
+2013/02/27 09:53:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/site/contact
+---
+2013/02/27 09:53:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/site/contact
+---
+2013/02/27 09:53:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/site/contact
+---
+2013/02/27 09:53:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/site/contact
+---
+2013/02/27 09:53:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/site/page?view=about
+---
+2013/02/27 09:53:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/site/page?view=about
+---
+2013/02/27 09:53:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/site/page?view=about
+---
+2013/02/27 09:53:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/site/page?view=about
+---
+2013/02/27 09:53:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 09:53:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 09:53:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 09:53:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:15:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:16:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:16:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:16:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:16:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/site/index
+---
+2013/02/27 10:20:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/user_avatar.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/user_avatar...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/user_avatar.png
+HTTP_REFERER=http://www.review.local/admin
+---
+2013/02/27 10:20:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/user_avatar.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/user_avatar...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/user_avatar.png
+HTTP_REFERER=http://www.review.local/admin
+---
+2013/02/27 10:20:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://www.review.local/themes/fantatic_admin/bootstrap/bootstrap.min.css
+---
+2013/02/27 10:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:24:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:24:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:24:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:24:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:25:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:25:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:25:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:25:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/form.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/screen.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/print.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/main.css
+HTTP_REFERER=http://www.review.local/
+---
+2013/02/27 10:29:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361803981_Animal_panda_331288.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361803981_Anim...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361803981_Animal_panda_331288.jpg
+HTTP_REFERER=http://www.review.local/admin.php
+---
+2013/02/27 10:29:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://www.review.local/admin.php
+---
+2013/02/27 10:29:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361803362_blue_9-wallpaper-1280x800.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361803362_blue...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361803362_blue_9-wallpaper-1280x800.jpg
+HTTP_REFERER=http://www.review.local/admin.php
+---
+2013/02/27 10:29:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361813801_blue_9-wallpaper-1280x800.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361813801_blue...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361813801_blue_9-wallpaper-1280x800.jpg
+HTTP_REFERER=http://www.review.local/admin.php
+---
+2013/02/27 10:29:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361801245_Anim...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://www.review.local/admin.php
+---
+2013/02/27 10:29:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/user_avatar.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/user_avatar...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/user_avatar.png
+HTTP_REFERER=http://www.review.local/admin.php
+---
+2013/02/27 10:29:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://www.review.local/themes/fantatic_admin/bootstrap/bootstrap.min.css
+---
+2013/02/27 10:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/user_avatar.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/user_avatar...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/user_avatar.png
+HTTP_REFERER=http://www.review.local/admin
+---
+2013/02/27 10:29:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/user_avatar.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/user_avatar...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/user_avatar.png
+HTTP_REFERER=http://www.review.local/admin
+---
+2013/02/27 10:29:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://www.review.local/themes/fantatic_admin/bootstrap/bootstrap.min.css
+---
+2013/02/27 10:29:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/user_avatar.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/user_avatar...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/user_avatar.png
+HTTP_REFERER=http://review.local/admin
+---
+2013/02/27 10:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/user_avatar.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/user_avatar...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/user_avatar.png
+HTTP_REFERER=http://review.local/admin
+---
+2013/02/27 10:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://review.local/themes/fantatic_admin/bootstrap/bootstrap.min.css
+---
+2013/02/27 10:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://review.local/themes/fantatic_admin/bootstrap/bootstrap.min.css
+---
+2013/02/27 10:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://review.local/themes/fantatic_admin/bootstrap/bootstrap.min.css
+---
+2013/02/27 10:32:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://review.local/themes/fantatic_admin/bootstrap/bootstrap.min.css
+---
+2013/02/27 10:32:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/lib/tag_handuniler/css/jquery.taghandler.css".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/lib/tag_handuniler/css/jquery.taghandler.css
+HTTP_REFERER=http://review.local/admin/product/create
+---
+2013/02/27 10:32:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://review.local/themes/fantatic_admin/bootstrap/bootstrap.min.css
+---
+2013/02/27 10:32:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361935952_Animal_panda_81743.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361935952_Anim...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361935952_Animal_panda_81743.jpg
+HTTP_REFERER=http://review.local/admin/product/34
+---
+2013/02/27 10:32:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361935952_Animal_panda_81743.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361935952_Anim...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361935952_Animal_panda_81743.jpg
+HTTP_REFERER=http://review.local/admin/product/34
+---
+2013/02/27 10:32:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://review.local/themes/fantatic_admin/bootstrap/bootstrap.min.css
+---
+2013/02/27 10:33:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361803362_blue_9-wallpaper-1280x800.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361803362_blue...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361803362_blue_9-wallpaper-1280x800.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:33:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361801245_Anim...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:33:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361803981_Animal_panda_331288.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361803981_Anim...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361803981_Animal_panda_331288.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:33:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:33:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361813801_blue_9-wallpaper-1280x800.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361813801_blue...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361813801_blue_9-wallpaper-1280x800.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:33:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://review.local/themes/fantatic_admin/bootstrap/bootstrap.min.css
+---
+2013/02/27 10:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361935952_Animal_panda_81743.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361935952_Anim...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361935952_Animal_panda_81743.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361886154_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361886154_Anim...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361886154_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361814451_blue_9-wallpaper-1280x800.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361814451_blue...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361814451_blue_9-wallpaper-1280x800.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1361814545_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('1361814545_Anim...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/1361814545_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:36:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:36:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/images/1361813801_blue_9-wallpaper-1280x800.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('upload/images/1...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/images/1361813801_blue_9-wallpaper-1280x800.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:36:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/images/1361803362_blue_9-wallpaper-1280x800.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('upload/images/1...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/images/1361803362_blue_9-wallpaper-1280x800.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:36:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/images/1361803981_Animal_panda_331288.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('upload/images/1...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/images/1361803981_Animal_panda_331288.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:36:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/images/1361801245_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('upload/images/1...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/images/1361801245_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:36:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://review.local/themes/fantatic_admin/bootstrap/bootstrap.min.css
+---
+2013/02/27 10:36:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/images/1361814545_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('upload/images/1...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/images/1361814545_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:36:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/images/1361886154_Animal_panda_276208.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('upload/images/1...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/images/1361886154_Animal_panda_276208.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:36:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/glyphicons-halflings.png
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:36:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/images/1361814451_blue_9-wallpaper-1280x800.jpg".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('upload/images/1...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload/images/1361814451_blue_9-wallpaper-1280x800.jpg
+HTTP_REFERER=http://review.local/admin/product/index
+---
+2013/02/27 10:38:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/fantatic_admin/img/glyphicons-halflings-white.png".' in /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/product-evaluation/sources/common/lib/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/fantatic...')
+#1 /var/www/product-evaluation/sources/common/lib/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/product-evaluation/sources/www/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/fantatic_admin/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://review.local/themes/fantatic_admin/bootstrap/bootstrap.min.css
+---

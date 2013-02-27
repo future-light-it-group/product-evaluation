@@ -3,6 +3,9 @@
 
 $this->pageTitle=Yii::app()->name;
 
+echo Yii::app()->request->getBaseUrl(true)."<br/>" ;
+print_r(Yii::app()->theme->baseUrl);
+echo "<br/>";
 
 ?>
 

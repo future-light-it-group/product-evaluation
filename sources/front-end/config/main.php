@@ -16,6 +16,7 @@ Yii::setPathOfAlias('www',$root . '/www');
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'Product Evaluation Website',
+    'theme'=>'classic',
     // preloading 'log' component
     'preload' => array('log'),
 
@@ -47,20 +48,18 @@ return array(
         'urlManager'=>array(
             'urlFormat'=>'path',
             'showScriptName'=> false,
-        ),
-
-
-        // uncomment the following to enable URLs in path-format
-        /*
-        'urlManager'=>array(
-            'urlFormat'=>'path',
             'rules'=>array(
-                '<controller:\w+>/<id:\d+>'=>'<controller>/view',
-                '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-                '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
-            ),
+                '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+            )
+
         ),
-        */
+
+        /* load bootstrap components */
+        'bootstrap' => array(
+            'class' => 'common.extensions.bootstrap.components.Bootstrap',
+            'responsiveCss' => true,
+        ),
+
         /*
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',

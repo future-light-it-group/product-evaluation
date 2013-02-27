@@ -2,7 +2,9 @@
 # FollowSymLinks must be enabled for this to work.
 <IfModule mod_rewrite.c>
   Options +FollowSymlinks
+  IndexIgnore */*
   RewriteEngine On
+  RewriteRule ^admin admin.php [T=application/x-httpd-php]
 </IfModule>
 
 # Unless an explicit file or directory exists, redirect all request to Yii entry script
@@ -10,4 +12,5 @@
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule . index.php
+
 </IfModule>

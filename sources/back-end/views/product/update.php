@@ -26,13 +26,13 @@ $this->menu=array(
 <script>
     $(document).ready(function(){
         //get image url from the file field
-       var img_url = '<?php print($model->image)?>'
+       var img_name = '<?php print($model->image)?>'
        //var default_img_url = '<?php print(Yii::app()->theme->baseUrl . '/img/no-image')?>'
 
     });
     if(img_url!='') {
         $('.thumbnail img').attr({
-            src:'upload/images/'+  img_url
+            src:'/upload/images/'+  img_name
         });
     } /*else {
         $('.thumbnail img').attr({

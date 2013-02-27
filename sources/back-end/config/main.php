@@ -17,13 +17,13 @@ Yii::setPathOfAlias('www',$root . '/www');
 Yii::setPathOfAlias('front',$root . '/front-end');
 
 /*====== resource dir ===================*/
+Yii::setPathOfAlias('image_public_dir','/upload/images');         // image dir
 
-Yii::setPathOfAlias('image_upload_dir', '/upload/images');
 
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'Admin Product Evaluation Website',
-    'theme' => 'fantatic',
+    'theme' => 'fantatic_admin',
     'defaultController'=>'product',
     // preloading 'log' component
     'preload' => array('log'),
@@ -54,9 +54,14 @@ return array(
             'allowAutoLogin' => true,
         ),
 
+        /* load bootstrap components */
+        'bootstrap' => array(
+            'class' => 'common.extensions.bootstrap.components.Bootstrap',
+            'responsiveCss' => true,
+        ),
 
-            'browser' => array(
-            'class' => 'application.extensions.Browser.CBrowserComponent',
+        'browser' => array(
+        'class' => 'application.extensions.Browser.CBrowserComponent',
         ),
 
 
@@ -64,18 +69,15 @@ return array(
         'urlManager'=>array(
             'urlFormat'=>'path',
             'showScriptName'=> false,
-        ),
-
-        /*
-        'urlManager'=>array(
-            'urlFormat'=>'path',
             'rules'=>array(
-                '<controller:\w+>/<id:\d+>'=>'<controller>/view',
-                '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-                '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                'admin'=>'site/index',
+                'admin/<controller:\w+>/<id:\d+>'=>'<controller>/view',
+                'admin/<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+                'admin/<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
             ),
         ),
-        */
+
+
         /*
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',

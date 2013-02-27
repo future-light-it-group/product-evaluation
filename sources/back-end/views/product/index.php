@@ -35,8 +35,6 @@ $('.search-form form-search-item').submit(function(){
 
 <?php
 
-
-
 $this->widget('zii.widgets.grid.CGridView', array(
     'id' => 'product-grid',
     'dataProvider' => $model->search(),
@@ -51,7 +49,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
         array(
             'name'=>'image',
             'type'=>'raw',
-            'value'=>'CHtml::image(Yii::getPathOfAlias("image_upload_dir") . DIRECTORY_SEPARATOR . $data->image,"Đang cập nhật",array("width"=>"123","height"=>"123"))',
+            'value'=>'CHtml::image(Yii::getPathOfAlias("image_public_dir") . DIRECTORY_SEPARATOR . $data->image,"Đang cập nhật",array("width"=>"123","height"=>"123"))',
 
         ),
         'price',

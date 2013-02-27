@@ -10,8 +10,8 @@
 	<br />
 
     <b><?php echo CHtml::encode($data->getAttributeLabel('image')); ?>:</b>
-
-    <img src="<?php echo CHtml::encode('/upload/images/' . $data->image); ?>" alt="product-image">
+    <?php echo CHtml::image(Yii::getPathOfAlias('image_public_dir'),'Đang cập nhật',array("width"=>"123","height"=>"123"));?>
+    <img src="<?php echo CHtml::encode(Cht . $data->image); ?>" alt="product-image">
     <br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('name')); ?>:</b>

@@ -28,7 +28,7 @@ $this->breadcrumbs=array(
         array(
             'name'=>'image',
             'type'=>'html',
-            'value'=>CHtml::image(Yii::getPathOfAlias("upload_img_dir") . DIRECTORY_SEPARATOR . $model->image,'Đang cập nhật',array('width'=>'123','height'=>'123')),
+            'value'=>CHtml::image(Yii::getPathOfAlias("image_public_dir") . DIRECTORY_SEPARATOR . $model->image,"Đang cập nhật",array("width"=>"123","height"=>"123")),
 
         ),
 

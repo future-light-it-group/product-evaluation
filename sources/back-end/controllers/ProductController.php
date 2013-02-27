@@ -62,6 +62,7 @@ class ProductController extends Controller
 	 */
 	public function actionCreate()
 	{
+
 		$model=new Product;
 
 		// Uncomment the following line if AJAX validation is needed
@@ -71,12 +72,15 @@ class ProductController extends Controller
 		{
 			$model->attributes=$_POST['Product'];
             if(is_object($file) && get_class($file) === 'CUploadedFile') {  // check if the instaces of file is valid object
-                $model->image = $file; //set file to image attribute of the model
+                $model->image = $file->name; //set file to image attribute of the model
+                $file_name = time() . '_' . $model->image;
+                $model->image = $file_name;
                 if($model->save()) {
-                    if(is_object($model->image) && get_class($model->image) === 'CUploadedFile' ) {
+                    if(is_object($file) && get_class($file) === 'CUploadedFile' ) {
                         // check again for make sure that in model attribute for valid
 
-                        $model->image->saveAs(substr(Yii::getPathOfAlias('upload_img_dir'),1) . DIRECTORY_SEPARATOR. $file->name);
+                        $file->saveAs(substr(Yii::getPathOfAlias('image_public_dir'),1) . DIRECTORY_SEPARATOR. $file_name);
+
                     }
                     $this->redirect(array('view','id'=>$model->id));
                 }
@@ -101,6 +105,8 @@ class ProductController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
+
+
 		$model=$this->loadModel($id);
         // Uncomment the following line if AJAX validation is needed
         // $this->performAjaxValidation($model);
@@ -112,21 +118,23 @@ class ProductController extends Controller
             $file = CUploadedFile::getInstance($model,'image');
 
             if(is_object($file) && get_class($file) === 'CUploadedFile' )  {
-                $model->image = $file;
+                $model->image = $file->name;
 
             } else  {
                 $model->image = $old_image;
             }
+            $file_name = time() . '_' . $model->image;
+            $model->image = $file_name;
             if($model->save()) {
-                if(is_object($model->image) && get_class($model->image) === 'CUploadedFile' )    {
+                if(is_object($file) && get_class($file) === 'CUploadedFile' )    {
                     //file image is write on db so we only need move this file from the tmp directory to upload directory
-
-                    $model->image->saveAs(substr(Yii::getPathOfAlias('upload_img_dir'),1) . DIRECTORY_SEPARATOR. $model->image->name);
+                ;
+                    $file->saveAs(substr(Yii::getPathOfAlias('image_public_dir'),1) . DIRECTORY_SEPARATOR. $file_name);
                     // remove if have the old image file
 
                     if(!empty($old_image)) {
                         try {
-                            unlink(substr(Yii::getPathOfAlias('upload_img_dir'),1) . DIRECTORY_SEPARATOR .  $old_image);
+                            unlink(substr(Yii::getPathOfAlias('image_public_dir'),1) . DIRECTORY_SEPARATOR .  $old_image);
                         } catch(Exception $e) {}
                     }
                 }
@@ -154,7 +162,7 @@ class ProductController extends Controller
         $old_image = $model->image;
         if($model->delete()) {
             if(!empty($old_image)) {
-                unlink(substr(Yii::getPathOfAlias('upload_img_dir'),1) . DIRECTORY_SEPARATOR .  $old_image);
+                unlink(substr(Yii::getPathOfAlias('image_public_dir'),1) . DIRECTORY_SEPARATOR .  $old_image);
             }
         }
 
@@ -230,7 +238,7 @@ class ProductController extends Controller
                $model->delete();
                //unlink the image
                if(!empty($old_image)) {
-                   unlink(substr(Yii::getPathOfAlias('upload_img_dir'),1) . DIRECTORY_SEPARATOR .  $old_image);
+                   unlink(substr(Yii::getPathOfAlias('image_upload_dir'),1) . DIRECTORY_SEPARATOR .  $old_image);
                }
            }
 
